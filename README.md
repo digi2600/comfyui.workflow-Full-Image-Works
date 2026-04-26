@@ -1,6 +1,8 @@
-I have created a very large and, I think very unique workflow. It is very advanced, but I am afraid it is advanced in some areas and missing some of the more basic parts. I have been making it by trial and error as I go along, and have made it really flexible. There are two main sections or Steps. First is the input step. a long side of the workflow with dynamic choices for text-to-image, image-based + text-to-image, inpainting, photo restoration, flux-only, and a few more. The second step is the fine-tuning part. Again, fully dynamic, where you can pick and/or all of the "modules" like skin fix, face fix, K-Sampler Cycle fix, face swap, upscale, and more.
+I have created a very large and, I think very unique workflow that is very advanced, but I am afraid it is advanced in some areas and missing some of the more basic parts. I have been making it by trial and error as I go along, and have made it really flexible. There are two main sections or Steps. First is the input step. A long side of the workflow with dynamic choices for text-to-image, image-based + text-to-image, inpainting, photo restoration, flux-only, and a few more. The second step is the fine-tuning part. Again, fully dynamic, where you can pick and/or all of the "modules" like skin fix, face fix, K-Sampler Cycle fix, face swap, upscale, and more.
 Some parts have been added and adapted from other sources on the internet. An example is the flux image generation part. I did not make that one, but I did use other nodes to incorporate it into the workflow as another generation option within the list of "step 1" generation choices.
 There are options within options here that are constantly being rewritten, streamlined, and even a few unfinished parts. I'll try to keep this as short as possible while hopefully explaining a good amount.
+
+Heads up: I have created this using a Windows box with an AMD 16GB VRAM card. It has taken me months to find the perfect balance of torch/Rocm/nodes/drivers and more. Due to possible health and family concerns, I am trying to add this to a public repo asap and have not written everything down yet. This will take a number of custom nodes that I think many people will have problems with, and it might not be the most efficient, but it is working for me, and I have only been using ComfyUI image generation for about 9 months now.
 
 Step 1:
 First, start by selecting one of several different ways to start within the "Step 1" section.
@@ -15,10 +17,25 @@ First, start by selecting one of several different ways to start within the "Ste
   The rgthree seed selector node makes seed control much easier and faster.
   Main positive prompt and Negative prompt.
   2nd positive prompt using Prompt database from benstaniford/comfy-prompt-db, to enable a quick selection of normally used prompts. This can be used in addition to the first positive prompt, the only positive prompt, or just left blank. It's all dynamic.
-  The preview image box should show each image generated in the batch.
+  The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
+
+
   !!Once you generate a good image that you like, select little the box next to the end that says "Batch image" and shows "Image #" as this will send only the image from the batch that you like to "step 2"-image adjustment.
   
 -Generate Image from Image and Text. By default, it will create a batch of 4 images. 
+You have the "set" box where you can choose :
+    *the checkpoint, steps, cfg, and other normal settings, including the width and height. (Remember to mess with denoise to give the  generating model more or less freedom in the new image!)
+    *fit should be ‘contain’ in most cases.
+    *amount is the amount in batch to generate. 4 is the best as I have found.
+The power lora loader by rgthree to load any lora's you wish.
+  The rgthree seed selector node makes seed control much easier and faster.
+Main positive prompt and Negative prompt.
+Image Comparer (rgthree) allowing you to compare each image in the batch to the original image.
+The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
+Note 1: While this has the same looking “Batch Image” select box at the end of the section like above, it is not updated to the same number scheme yet. For image 1, select 0. For image 2 select 1, and so on.
+Note 2: This only uses the more efficient tile VAE decode
+
+
 
 -Inpaint. Can be tricky. The end of the section has a second model selected to go off a non-Inpaint model.
 
@@ -71,3 +88,18 @@ Would I ever do Face Fix and Face Swap at once? Well, yes. I have had several fa
 Remember: Face Fix (Or regen) will capture ANY face (Picture on a shirt, poster, background guy, anything. But the Face Swap only works on one face unless you mess with the input_faces_index, and there is no way to get the Expressions node to work with more than one face, so you might find it useful to do a face regen on a photo of two hikers when they find a bear. Use Face Fix to tweak the facial features just about right, then do a face swap, and the face swap should overlay the face on top, not overwrite it. But just in case...now you can. Yay!
 
 (Note: Press the number 2 to jump back to this area to enable different things!)
+
+******************************************
+
+Python version: 3.11.9
+
+AMD arch: gfx1201
+ROCm version: (7, 2)
+
+ComfyUI version: 0.11.1
+ComfyUI frontend version: 1.37.11
+
+Torch version: 2.10.0+rocm7.12.0a20260201
+
+
+
