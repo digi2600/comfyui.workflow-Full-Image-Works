@@ -13,13 +13,29 @@ I have created this using a Windows box with an AMD 16GB VRAM card. It has taken
 
 
 Step 1:
+
+
 First, start by selecting one of several different ways to start within the "Step 1" section 'Choose' box.
+
+
 👉Generate Image from Text. By default, it will create a batch of 4 images.
+
+
   ⇒You have the "set" box where you can choose :
+
+
     →the checkpoint, steps, cfg, and other normal settings, including the width and height. 
+
+
     →batch size should stay at 4, but I think 2 is doable, but not very tested.
+
+
     →Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
+
+
     →stop_at_clip_layer option to control clip encoding for lesser or greater detail/control.
+
+
     ✏️Vram debugging and clearing to increase speed and efficiency.
   ⇒The power lora loader by rgthree to load any lora's you wish.
   ⇒The rgthree seed selector node makes seed control much easier and faster.
