@@ -12,7 +12,7 @@ I have created this using a Windows box with an AMD 16GB VRAM card. It has taken
 
 
 
-Step 1:/n
+Step 1:
 First, start by selecting one of several different ways to start within the "Step 1" section 'Choose' box.
 👉Generate Image from Text. By default, it will create a batch of 4 images.
   ⇒You have the "set" box where you can choose :
