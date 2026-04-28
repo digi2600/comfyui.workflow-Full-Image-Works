@@ -1,12 +1,12 @@
-I have created a very large and, I think very unique workflow that is very advanced, but I am afraid it is advanced in some areas and missing some of the more basic parts. I have been making it by trial and error as I go along, and have made it really flexible. 
+   I have created a very large and, I think very unique workflow that is very advanced, but I am afraid it is advanced in some areas and missing some of the more basic parts. I have been making it by trial and error as I go along, and have made it really flexible. 
 
-There are two main sections or Steps. First is the input step. A long side of the workflow with dynamic choices for text-to-image, image-based + text-to-image, inpainting, photo restoration, flux-only, and a few more. The second step is the fine-tuning part. Again, fully dynamic, where you can pick and/or all of the "modules" like skin fix, face fix, K-Sampler Cycle fix, face swap, upscale, and more.
+   There are two main sections or Steps. First is the input step. A long side of the workflow with dynamic choices for text-to-image, image-based + text-to-image, inpainting, photo restoration, flux-only, and a few more. The second step is the fine-tuning part. Again, fully dynamic, where you can pick and/or all of the "modules" like skin fix, face fix, K-Sampler Cycle fix, face swap, upscale, and more.
 
-Some parts have been added and adapted from other sources on the internet. An example is the flux image generation part. I did not make that one, but I did use other nodes to incorporate it into the workflow as another generation option within the list of "step 1" generation choices.
+   Some parts have been added and adapted from other sources on the internet. An example is the flux image generation part. I did not make that one, but I did use other nodes to incorporate it into the workflow as another generation option within the list of "step 1" generation choices.
 
-There are options within options here that are constantly being rewritten, streamlined, and even a few unfinished (but hopefully working) parts. I'll try to keep this as short as possible while hopefully explaining a good amount.
+   There are options within options here that are constantly being rewritten, streamlined, and even a few unfinished (but hopefully working) parts. I'll try to keep this as short as possible while hopefully explaining a good amount.
 
-I have created this using a Windows box with an AMD 16GB VRAM card. It has taken me months to find the perfect balance of torch/Rocm/nodes/onnx/drivers and more. It might be a great idea to update in most cases, but this has taken me months, and I have no wish to update all and risk having to delete everything and re-install (I’m especially looking at you, ReActor. A great little node, but picky as hell)… Due to possible health and family concerns, I am trying to add this to a public repo asap and have not written everything down yet. This will take a number of custom nodes that I think some people will have problems with, and it might not be the most efficient, but it is working for me, and I have only been using ComfyUI image generation for about 10 months now, and I have never really gone over the basic steps. I just learned today that the ComfyUI Manager has a snapshot manager…damn. That could have saved me about a month of work alone.
+   I have created this using a Windows box with an AMD 16GB VRAM card. It has taken me months to find the perfect balance of torch/Rocm/nodes/onnx/drivers and more. It might be a great idea to update in most cases, but this has taken me months, and I have no wish to update all and risk having to delete everything and re-install (I’m especially looking at you, ReActor. A great little node, but picky as hell)… Due to possible health and family concerns, I am trying to add this to a public repo asap and have not written everything down yet. This will take a number of custom nodes that I think some people will have problems with, and it might not be the most efficient, but it is working for me, and I have only been using ComfyUI image generation for about 10 months now, and I have never really gone over the basic steps. I just learned today that the ComfyUI Manager has a snapshot manager…damn. That could have saved me about a month of work alone.
 
 ❗️Each section in steps 1 and 2 will have a ‘Preview Image’ box. The workflow does not use any auto-save method. Please only right-click and choose Save As in the ‘Preview Image’ box (this is fine with batch images as well). Saving from the ‘Image Comparer’ or anything else might not work or give unexpected results. The only exception is the video module at the very end, that does save a file after each run.
 
@@ -19,52 +19,36 @@ First, start by selecting one of several different ways to start within the "Ste
 
 
 👉Generate Image from Text. By default, it will create a batch of 4 images.
-
-
 ⇒You have the "set" box where you can choose :
-
-
     →the checkpoint, steps, cfg, and other normal settings, including the width and height. 
-
     →batch size should stay at 4, but I think 2 is doable, but not very tested.
-
     →Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
-
     →stop_at_clip_layer option to control clip encoding for lesser or greater detail/control.
-
     ✏️Vram debugging and clearing to increase speed and efficiency.
-    
 ⇒The power lora loader by rgthree to load any lora's you wish.
-  
 ⇒The rgthree seed selector node makes seed control much easier and faster.
-  
 ⇒Main positive prompt (Green) and Negative prompt (Red).
-  
 ⇒2nd positive prompt (Green as well) using Prompt database from benstaniford/comfy-prompt-db, to enable a quick selection of normally used prompts. This can be used in addition to the first positive prompt, the only positive prompt, or just left blank. It's all dynamic.
-  
 ⇒The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
-  
 ⇒And the ‘Batch Image’ box, where you can select the image you want to use in Step 2.
-
-✏️Notice the text within the ‘Batch Image’ box shows ‘Image #’, this is an updated number scheme where the first image is 1, then 2, and so on. 
-
-❗️Once you generate a good image that you like, select the little box next to the end that says "Batch image" and shows "Image #" as this will send only the image from the batch that you like to "step 2"-image adjustment.
+✏️Notice the text within the ‘Batch Image’ box shows ‘Image #’, this is an updated number scheme where the first image is 1, then 2, and so on. This will send only the image from the batch that you like to "step 2"-image adjustment.
 
   
 👉Generate Image from Image and Text. By default, it will create a batch of 4 images. 
 ⇒You have the "set" box where you can choose :
-   →the checkpoint, steps, cfg, and other normal settings, including the width and height. (Remember to mess with denoise to give the  generating model more or less freedom in the new image!)
-   →fit should be ‘contain’ in most cases.
-   →amount is the amount in batch to generate. 4 is the best as I have found.
+    →the checkpoint, steps, cfg, and other normal settings, including the width and height. (Remember to mess with denoise to give the  generating model more or less freedom in the new image!)
+    →fit should be ‘contain’ in most cases.
+    →batch size should stay at 4, but I think 2 is doable, but not very tested.
+    →Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
+    →stop_at_clip_layer option to control clip encoding for lesser or greater detail/control.
+    ✏️Vram debugging and clearing to increase speed and efficiency.
 ⇒The power lora loader by rgthree to load any lora's you wish.
 ⇒The rgthree seed selector node makes seed control much easier and faster.
 ⇒Main positive prompt (Green) and Negative prompt (Red).
 ⇒Image Comparer (rgthree) allowing you to compare each image in the batch to the original image.
 ⇒The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
-❗️ While this has the same looking “Batch Image” select box at the end of the section like above, it is not updated to the same number scheme yet. For image 1, select 0. For image 2 select 1, and so on.
-✏️ This only uses the more efficient tile VAE decode
-✏️ When the ‘Batch Image’ box shows ‘batch_index’, this does not use the same number scheme, and you must choose 0 for the first image, 1 for the 2nd image, and so on.
-
+⇒And the ‘Batch Image’ box, where you can select the image you want to use in Step 2.
+✏️Notice the text within the ‘Batch Image’ box shows ‘Image #’, this is an updated number scheme where the first image is 1, then 2, and so on. This will send only the image from the batch that you like to "step 2"-image adjustment.
 
 
 👉Inpaint. Can be tricky. The end of the section has a second model selected to go off a non-Inpaint model.
