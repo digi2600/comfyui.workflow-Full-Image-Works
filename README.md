@@ -1,5 +1,5 @@
-   I have created a very large and, I think very unique workflow that is very advanced, but I am afraid it is advanced in some areas and missing some of the more basic parts. I have been making it by trial and error as I go along, and have made it really flexible. Most of the options have been designed with SDXL models in mind, but there are a few exceptions with FLUX, Inpaint, and Kandinsky5.<br>
-To give an example, I generaly use:
+   I have created a very large and, I think, very unique workflow that is very advanced, but I am afraid it is advanced in some areas and missing some of the more basic parts. I have been making it by trial and error as I go along, and have made it really flexible. Most of the options have been designed with SDXL models in mind, but there are a few exceptions with FLUX, Inpaint, and Kandinsky5.<br>
+To give an example, I generally use:
 <ul>
    <li>The SDXL based 'cyberrealisticPony_v141.safetensors' 
       <ul>
@@ -7,7 +7,7 @@ To give an example, I generaly use:
          <li>Used best with Danbooru tags (1girl, solo, etc.).</li></ul>
    <li>The SDXL based  'juggernautXL_ragnarokBy.safetensors'
       <ul>
-   <li>Known for being more 'photorealistic', this is a slightly slower, and more Vram hungry model. It is also harder to control and might give better results than my favored pony model some times,  and terrable results most other times.
+   <li>Known for being more 'photorealistic', this is a slightly slower, and more Vram hungry model. It is also harder to control and might give better results than my favored pony model sometimes,  and terrible results most other times.
       <li>Used best with Natural Language prompts (A woman standing...)</li>
       </ul>
 </li>
@@ -60,7 +60,7 @@ First, start by selecting one of several different ways to start within the "Ste
    <li>The power lora loader by rgthree to load any lora's you wish.
    <li>The rgthree seed selector node makes seed control much easier and faster.
    <li>Main positive prompt (Green) and Negative prompt (Red).
-   <li>Image Comparer (rgthree) allowing you to compare each image in the batch to the original image.
+   <li>Image Comparer (rgthree) allows you to compare each image in the batch to the original image.
    <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
    <li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.
   </li>
@@ -80,7 +80,7 @@ First, start by selecting one of several different ways to start within the "Ste
   <li>The power lora loader by rgthree to load any lora's you wish.
   <li>Main positive prompt (Green) and Negative prompt (Red).
   <li>A ‘Mask Preview’ box that just shows what it is working with for clarity.
-  <li>Image Comparer (rgthree) allowing you to compare the generated image to the original image.
+  <li>Image Comparer (rgthree) allows you to compare the generated image to the original image.
   <li>Another load checkpoint box so you can continue to step 2 with a full (not inpaint only) model. 
     <ul>
        <li>Note: Most modules in Step 2 have been updated to where you must select a safetensors file when needed, so this might not be used in most cases. This is a great way of mixing the different model parts together, like the face fix. I normally use Pony and Jaggernaut, and now have the option to generate an image with Pony, but I experiment with some fixes with other models to only fix the Fine tune Image, skin, face, or hands. </li></ul>
@@ -112,29 +112,29 @@ First, start by selecting one of several different ways to start within the "Ste
     <ul>
       <li>batch size should stay at 4, but I think 2 is doable, but not very tested.
       <li>Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
-      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare it's discription from the main image to a copy to visually see the diffrences.
+      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare it's discription from the main image to a copy to visually see the differences.
       <li>✏️Vram debugging and clearing to increase speed and efficiency. </li>
     </ul>
    <li>The rgthree seed selector node makes seed control much easier and faster.
-   <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node, and can't be directaly edited.
+   <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node, and can't be directly edited.
    <li>The preview image box should show the image generated, and is always the best way to save any image you choose.
    <li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.
    </li>
 </ul><br><br>
 
 👉Florence2 image to text<br> Another type of image to text nodes that usually gives better or more detailed results. <br>
-❗️Due to it needing a diffrent model in order to first read the image, there are two sections in the 'Florence2 image to text' box.<br>
+❗️Due to it needing a different model in order to first read the image, there are two sections in the 'Florence2 image to text' box.<br>
 <ul>
    <li>Load Image box for any image you want the AI to 'see'. 
   <li>The Set box will have many options you can change, like the model, steps, cfg, and so on. Any options above the 'Generate Image?' option in the box is for the Florence2 model. Any option under 'Generate Image?' is for generating a new image using the output.
     <ul>
-      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare it's discription from the main image to a copy to visually see the diffrences.
+      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare it's discription from the main image to a copy to visually see the differences.
        <li>batch size should stay at 4, but I think 2 is doable, but not very tested.
       <li>Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
       <li>✏️Vram debugging and clearing to increase speed and efficiency. </li>
     </ul>
    <li>The rgthree seed selector node makes seed control much easier and faster.
-   <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node, and can't be directaly edited.
+   <li>The Positive and negative prompts are actually just text output from the imageInterrogator node and can't be directly edited.
    <li>The preview image box should show the image generated, and is always the best way to save any image you choose.
    <li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.   
    </li>
@@ -145,9 +145,9 @@ Simple image restoration. The checkpoint selection for a model does nothing to t
 <ul>
    <li>Load Image box for any image you want to restore. 
    <li>The Set box will have many options you can change for image restoration.
-   <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node, and can't be directaly edited.
-   <li>Image Comparer (rgthree) allowing you to compare the generated image to the original image.
-   <li>The preview image box should show the image generated, and is always the best way to save any image you choose.
+   <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node, and can't be directly edited.
+   <li>Image Comparer (rgthree) allows you to compare the generated image to the original image.
+   <li>The preview image box should show the image generated, and it is always the best way to save any image you choose.
    </li>
 </ul><br><br>
 ✏️Note: Press the number 1 to jump back to the 'Step 1 Choice box' area.
@@ -181,14 +181,14 @@ Will take the one image you selected from the previous batch of pictures and giv
 
 
 👉Skin Fix<br>
-It is usually best to do this step before a Face or Hand Fix, however I normaly do not use this very often as the results are usualy bad and you might spend a long time messing with the settings.
+It is usually best to do this step before a Face or Hand Fix; however, I normally do not use this very often, as the results are usually bad, and you might spend a long time messing with the settings.
 <ul>
    <li>Main positive prompt (Green) and Negative prompt (Red).
    <li>You have the "set" box where you can choose several options.
    <li>The power lora loader by rgthree to load any lora's you wish.
    <li>The SkinDetailer box.
-   <li>The pink masking box with three diffrent windows that show what mask in choosen and how it is selected.
-   <li>Image Comparer (rgthree) allowing you to compare the generated image to the original image.
+   <li>The pink masking box with three different windows that show which mask in choosen and how it is selected.
+   <li>Image Comparer (rgthree) allows you to compare the generated image to the original image.
    <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
    </li>
 </ul><br><br>
@@ -200,8 +200,8 @@ Regenerate a new face. Many faces you generate will have bad faces, like crooked
    <li>You have the "set" box where you can choose several options.
    <li>The power lora loader by rgthree to load any lora's you wish.
    <li>The FaceDetailer box.
-   <li>The pink masking box with three diffrent windows that show what mask in choosen and how it is selected.
-   <li>Image Comparer (rgthree) allowing you to compare the generated image to the original image.
+   <li>The pink masking box with three different windows that show which mask in choosen and how it is selected.
+   <li>Image Comparer (rgthree) allows you to compare the generated image to the original image.
    <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
    </li>
 </ul><br><br>
@@ -212,8 +212,8 @@ This will try to find and fix broken or messed-up fingers and hands.
    <li>Main positive prompt (Green) and Negative prompt (Red).
    <li>Three small boxes under the prompt windows with detailer options.
    <li>The FaceDetailer box (with hand_* in UltralyticsDetectorProvider).
-   <li>The pink masking box with three diffrent windows that show what mask in choosen and how it is selected.
-   <li>Image Comparer (rgthree) allowing you to compare the generated image to the original image.
+   <li>The pink masking box with three different windows that show which mask in choosen and how it is selected.
+   <li>Image Comparer (rgthree) allows you to compare the generated image to the original image.
    <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
    </li>
 </ul><br><br>
@@ -225,16 +225,16 @@ Much like 'Fine Tune Image', this will redraw the image using cycles of the samp
 </ul><br><br>
 
 👉Face Swap<br>
-Use face swap to change the face on the image to another face. ReActor is a fast a good faceswap, just very hard to install, atleast is was very difficult for me!
+Use face swap to change the face on the image to another face. ReActor is a fast and good faceswap, just very hard to install, atleast is was very difficult for me!
 <ul>
    <li>First is the ReActor Fast Face Swap box. 
     <ul>
-      <li>✏️The only real setting you will want to change is the 'input_faces_index' to search for faces (starting from left to right, 0,1, etc.) So if you only want to change the second person's face in a photo, you would just put 1. It can takle some playing with before it finds the right thing. remember that anything that is close to a face counts! Posters, people way in the background, the monalisa, a pile of garbidge that kinda looks like a face if you squint real hard.</li>
+      <li>✏️The only real setting you will want to change is the 'input_faces_index' to search for faces (starting from left to right, 0,1, etc.) So if you only want to change the second person's face in a photo, you would just put 1. It can take some playing with before it finds the right thing. Remember that anything that is close to a face counts! Posters, people way in the background, the monalisa, a pile of garbage that kinda looks like a face if you squint really hard.</li>
     </ul>
-   <li>Swap Choice box. A choice of auto selecting upto 3 extra faces. This was put in to make it easier if you don't want to mess with the index count.
-   <li>ReActor Face Booster. You can try using this, or disable it. The booster is usualy a little much and can make things look odd.
+   <li>Swap Choice box. A choice of auto-selecting up to 3 extra faces. This was put in to make it easier if you don't want to mess with the index count.
+   <li>ReActor Face Booster. You can try using this, or disable it. The booster is usually a little much and can make things look odd.
    <li>Load Image box for any image you want to work on. 
-   <li>Image Comparer (rgthree) allowing you to compare the generated image to the original image.
+   <li>Image Comparer (rgthree) allows you to compare the generated image to the original image.
    <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
    </li>
 </ul><br><br>
@@ -258,7 +258,7 @@ Change the lighting, contrast, and other image settings with the ability to chan
 </ul><br><br>
 
 👉Video<br>
-A small workflow that I added and changed a few thing to make it where I  could dynamicly just add the image I made through the workflow (it just saves me the time of saveing and swapping)
+A small workflow that I added and changed a few things to make it where I  could dynamically just add the image I made through the workflow (it just saves me the time of saving files and swapping workflows)
 <ul>
    <li> test </li>
 </ul><br><br>
