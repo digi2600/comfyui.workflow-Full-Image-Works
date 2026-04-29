@@ -1,5 +1,37 @@
 ![Workflow Overview](Full%20Image%20Works%201.44.5.jpg)
+
+Status & Disclaimer
+
+This is an alpha/non-production release. All core functions work without critical errors, but I'm still refining several areas before considering it production-ready.
+
+Current Limitations:
+
+    Installation is complex (working on simplification)
+    README documentation is ~80% complete (a few sections remain)
+    Some sections need refinement (see Known Issues below)
+    Open to modifications and improvements that enhance usability or installation
+
+Known Issues
+
+    Inpaint and Restore Image sections — Need refinement for better reliability
+    Step 2 modules — Some still in development (Skin Fix module particularly)
+    Model focus — Primarily designed for SDXL-type models, with a small Flux section included
+
+Recent Improvements
+
+    All Step 1 image generation options now use tiled VAE decode for efficient VRAM usage (with full VAE decode fallback available)
+    VRAM debugging via comfyui-kjnodes for better memory management
+    Batch Image selectors now use 1-based numbering (select image #1 for the first image, not #0)
+
+Requirements
+
+    ComfyUI
+    18 custom nodes (see list at bottom of README)
+    Tested on AMD 16GB VRAM; should work on any card capable of generating SDXL 1.0 images
+
+<br>    
    I have created a very large and, I think, very unique workflow that is very advanced, but I am afraid it is advanced in some areas and missing some of the more basic parts. I have been making it by trial and error as I go along, and have made it really flexible. Most of the options have been designed with SDXL models in mind, but there are a few exceptions with FLUX, Inpaint, and Kandinsky5.<br>
+  
 To give an example, I generally use:
 <ul>
    <li>The SDXL based 'cyberrealisticPony_v141.safetensors' 
