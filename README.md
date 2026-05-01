@@ -1,4 +1,4 @@
-![Workflow Overview](Full%20Image%20Works%201.44.5.jpg)
+![Workflow Overview](Full%20Image%20Works%201.44.5-alpha-2.jpg)
 
 Status & Disclaimer
 
@@ -22,6 +22,13 @@ Recent Improvements
     All Step 1 image generation options now use tiled VAE decode for efficient VRAM usage (with full VAE decode fallback available)
     VRAM debugging via comfyui-kjnodes for better memory management
     Batch Image selectors now use 1-based numbering (select image #1 for the first image, not #0)
+    
+    -1.44.5-alpha-2 (5/1/26)
+    -New Step 1 section called 'Quick Image' with node from https://github.com/florestefano1975/ComfyUI-Prompt-Library. I am hoping to replace the Prompt database used in 'Generate Image from Text' with a more flexible one.
+    -Added the Vram selector box to "5) Ksampler Cycle Fix" with both the option to use free VAE or tiled, and Vram Debug
+    -Added 'PC: Schedule LoRAs' to Step 1 section called 'Quick Image' from https://github.com/asagi4/comfyui-prompt-control to enable LoRA adding within the prompt <lora:filename:1.0>
+    -Cleaned up some extra nodes (preview image nodes and one Context (rgthree)node)
+
 
 Requirements
 
