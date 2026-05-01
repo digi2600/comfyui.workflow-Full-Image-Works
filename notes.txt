@@ -1,0 +1,3 @@
+added a new Step 1 section called 'Quick Image' with node from https://github.com/florestefano1975/ComfyUI-Prompt-Library and (custonized a little)
+added https://github.com/asagi4/comfyui-prompt-control in the Step 1 section called 'Quick Image'
+added Vram selector box to "5) Ksampler Cycle Fix"
