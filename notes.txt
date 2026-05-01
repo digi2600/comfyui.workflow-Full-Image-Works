@@ -1,3 +1,43 @@
-added a new Step 1 section called 'Quick Image' with node from https://github.com/florestefano1975/ComfyUI-Prompt-Library and (customized a little)
-added https://github.com/asagi4/comfyui-prompt-control in the Step 1 section called 'Quick Image'
-added Vram selector box to "5) Ksampler Cycle Fix"
+-New Step 1 section called 'Quick Image' with node from https://github.com/florestefano1975/ComfyUI-Prompt-Library and (customized a little)
+I am hoping to replace the Prompt database used in 'Generate Image from Text' with a more flexible one.
+-Added the Vram selector box to "5) Ksampler Cycle Fix"
+both the option to use free VAE or tiled, and Vram Debug
+-Added 'PC: Schedule LoRAs' to Step 1 section called 'Quick Image' from https://github.com/asagi4/comfyui-prompt-control to enable LoRA adding within the prompt <lora:filename:1.0>
+
+
+
+
+
+
+
+
+
+This row is key and will allow us to already discard so many image which we can exclude for the rest of the batch.
+
+    extreme close-up: it works well really zooms into the eyes of the subject. So this is a keeper.
+    close-up and medium close-up: these pretty much produce the same result and you can verify this by reviewing the rest of the images in these columns. So I will keep close-up as the keyword and discard medium close-up.
+    medium shot: you start to see the camera zoom out a bit to reveal the shoulders and you can see consistently as you go down this column. However, as per the different composition guides from real camera its not quite the same.
+    long shot and establishing shot: both are similar definitions as they both show the subject in their environment to set the scene of where the subject is. As you scroll down this column there are some difference when combined with the camera angle, however I feel establishing shot would be more distinct in a prompt and long shot when combined with camera angle. It also steps back a bit more to reveal more of the subject.
+    medium full shot and full shot: both set of keywords are resulting in the same kind of framing. Scrolling down the image column the produce very similar results. They are not aligned well with the camera framing of real word but still produce a wider shot. These are very similar to medium shot so we can discard these.
+    upper body shot: this does not produce any unique results and is similar to close-up keywords.
+    full body shot: this should frame the subject from head to toe and certainly shows more of the subject then all the other keywords.
+
+So in conclusion we will stick with following keywords for our prompts: extreme close-up, close-up, medium shot, establishing shot and full body shot.
+Camera Angle Review
+
+    front on and straight on: these produces pretty much the same results where the subject is mostly looking at the camera. However as we change the framing the subject starts to look away. We can use either of the keywords but I like straight on so I will use these for further investigation.
+    bilaterally symmetrical: although this is not a camera angle but as I discovered this during my research, the subject is centered and symmetrically framed. It does change as we zoom out in our framing.
+    side view: side profile view of the subject which is correctly represented in the results.
+    back view and from behind: forces the camera behind the subject and therefore we should be seeing the back of the head. Both produce very similar results.
+    from above: It works in most cases as we zoom out and move far back from the subject. Camera is positioned above the eye level of the subject.
+    from below: it works quite well as we move across the different framing of the subject. Camera is positioned below the eye level of the subject.
+    wide angle view: this kind of overlaps as angle of view and framing. Obviously we can see that that when paired with close-up etc. it produces conflicting results. But as we zoom out we get a wider frame and angle on the subject.
+    fisheye view: fisheye lens and angle can add a creative flare to your images and as you can see other than the first image, others represent the fisheye effect in the results.
+    overhead shot: up close framing doesn’t seem to consider this angle but as your framing moves out the results start to be correctly represented.
+    top down shot: seems to work as the camera moves out but not very well when you are up close.
+    bird’s eye view: this produces similar result to the top down shot and there is not much difference. It does not go as high as the bird but I wonder if having more specific terms will achieve better result.
+    high angle: this does not produce the expected result in any kind of framing.
+    slight above: only seems to produce the expected result in one image, the rest pretty much at eye level.
+    hero view: seems to produce the correct result even when up close vs wide angle. It is producing images that places a camera so its looking up at the subject. Producing that hero shot!!
+    low view: very much similar to the hero view.
+    selfie: it also produces the desired result as the camera is going to be close so positions that move the camera away don’t produce the coherent result. Most of the camera placements have little to no affect eg. Full body shot is not possible with a selfie.
