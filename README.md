@@ -314,13 +314,14 @@ Remember: Face Fix (Or regen) will capture ANY face (Picture on a shirt, poster,
 <li>Python version: 3.11.9
 <li>AMD arch: gfx1201
 <li>ROCm version: (7, 2)
-<li>ComfyUI version: 0.11.1
+<li>ComfyUI version: 0.20.1
 <li>ComfyUI frontend version: 1.37.11
 <li>Torch version: 2.10.0+rocm7.12.0a20260201
    </li>
 </ul><br>
 18 custom nodes:
    <ul>
+   <li>ComfyUI-Prompt-Library from https://github.com/NoudH/ComfyUI-Prompt-Library
 <li>ComfyUI Impact Pack 8.28.2
 <li>ComfyUI-Custom-Scripts 1.2.5
 <li>rgthree-comfy 1.0.251211205
@@ -338,6 +339,6 @@ Remember: Face Fix (Or regen) will capture ANY face (Picture on a shirt, poster,
 <li>lora-info 1.0.2
 <li>ComfyUI-Notifications nightly
 <li>comfyui-simswap nightly
-<li>Prompt Database for ComfyUI unknown
       </li>
+<br> Note: is no longer need (Prompt Database for ComfyUI unknown)
    </ul>
