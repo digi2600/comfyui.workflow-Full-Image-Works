@@ -135,11 +135,14 @@ You can back it up, version-control it, or share it between machines.
 
 ## 📝 Changelog
 
-### 2.0
--All aub nodes and cards are now sorted.
--Accadently clicking outside the New box does not close it.
--Added reset button with comfroation prompt.
--
+### 1.4
+- All sub-categories and cards are now alphabetically sorted.
+- Accidentally clicking outside the New Prompt box does not close it.
+- Made New Prompt box resizable.
+- Added reset button with confirmation prompt.
+- scroll freeze so the card list doesn't scroll to the top after each click.
+- Auto-expands all categories and sub-categories on reset.
+<br>All other updates are from the forked project at https://github.com/NoudH/ComfyUI-Prompt-Library<hr>
 
 ### v1.3
 - 🎲 Added **Prompt Library Random** node (`PromptLibraryRandomNode`)
