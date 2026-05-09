@@ -1,5 +1,6 @@
-# 📚 Prompt Library 2 — ComfyUI Custom Node from https://github.com/florestefano1975/ComfyUI-Prompt-Library, with added features. The Random Prompt Library node has not been changed.
-
+# 📚 Prompt Library 2 
+<br>ComfyUI Custom Node from https://github.com/florestefano1975/ComfyUI-Prompt-Library, with added features.
+<br> The Random Prompt Library node has not been changed. Please see version notes.<hr>
 A fully-featured prompt manager integrated directly into ComfyUI.
 Organize, search, and reuse your AI generation prompts with categories, sub-categories, tags, and negative prompts.
 Includes a dedicated **Random Prompt** node for automatic prompt variation on every workflow run.
@@ -137,12 +138,12 @@ You can back it up, version-control it, or share it between machines.
 
 ### 1.4
 - All sub-categories and cards are now alphabetically sorted.
-- Accidentally clicking outside the New Prompt box does not close it.
-- Made New Prompt box resizable.
+- Accidentally clicking outside the 'New Prompt' box does not close it.
+- 'New Prompt' box is resizable.
 - Added reset button with confirmation prompt.
 - scroll freeze so the card list doesn't scroll to the top after each click.
 - Auto-expands all categories and sub-categories on reset.
-<br>All other updates are from the forked project at https://github.com/NoudH/ComfyUI-Prompt-Library<hr>
+<br><br>All other updates are from the forked project at https://github.com/NoudH/ComfyUI-Prompt-Library<hr>
 
 ### v1.3
 - 🎲 Added **Prompt Library Random** node (`PromptLibraryRandomNode`)
