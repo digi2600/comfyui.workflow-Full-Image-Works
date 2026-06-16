@@ -51,7 +51,11 @@ To give an example, I generally use:
 > Each section in steps 1 and 2 will have a ‘Preview Image’ box. The workflow does not use any auto-save method. Please only right-click and choose Save As in the ‘Preview Image’ box (this is fine with batch images as well). Saving from the ‘Image Comparer’ or anything else might not work or give unexpected results. The only exception is the video module at the very end, which does save a file after each run.<br>
 
 
-Example 1:<details><hr>
+Example 1:
+
+![Workflow Example 1](Archive/EX1/Project.jpg)
+
+<details><hr>
 <ul>
     <li>Started with Generate Image from Text in step 1. The photo generated is not quite what I had in mind; the face is bad, the hands are weird, and the photo is generally bad. This is a great photo to use as a demonstration, and it gives a better example of the next step. </li>
 
@@ -207,8 +211,10 @@ Step one is known as the "input" step where you can create an image or bring in 
 <li>The rgthree seed selector node makes seed control much easier and faster.
 <li>Main positive prompt (Green).
 <li>The preview image box should show the image generated, and is always the best way to save any image you choose.
-<li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.
-   </li>
+<li>The ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment. 
+            
+![Batch Number Menu](Archive/GIFT/batch.jpg)
+
 </ul><hr></details><br>
 
 
@@ -225,8 +231,10 @@ Step one is known as the "input" step where you can create an image or bring in 
    <li>The rgthree seed selector node makes seed control much easier and faster.
    <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node and can't be directly edited.
    <li>The preview image box should show the image generated, and is always the best way to save any image you choose.
-   <li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.
-   </li>
+   <li>The ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment. 
+            
+![Batch Number Menu](Archive/GIFT/batch.jpg)
+
 </ul><hr></details><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;👉 Florence2 image to text<br> Another type of image-to-text node that usually gives better or more detailed results. <br>
@@ -243,8 +251,10 @@ Step one is known as the "input" step where you can create an image or bring in 
    <li>The rgthree seed selector node makes seed control much easier and faster.
    <li>The Positive and negative prompts are actually just text output from the imageInterrogator node and can't be directly edited.
    <li>The preview image box should show the image generated, and is always the best way to save any image you choose.
-   <li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.   
-   </li>
+   <li>The ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment. 
+            
+![Batch Number Menu](Archive/GIFT/batch.jpg)
+
 </ul><hr></details><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;👉 Restore Image<br>
@@ -290,8 +300,10 @@ Will take the one image you selected from the previous batch of pictures and giv
    <li>The rgthree seed selector node makes seed control much easier and faster.
    <li>The power lora loader by rgthree to load any lora's you wish.
    <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
-   <li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to another module, like upscale.
-   </li>
+   <li>The ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment. 
+            
+![Batch Number Menu](Archive/GIFT/batch.jpg)
+
 </ul><hr></details><br>
 
 
