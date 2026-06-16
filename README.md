@@ -48,12 +48,24 @@ To give an example, I generally use:
    I have created this using a Windows box with an AMD 16GB VRAM card. It has taken me months to find the perfect balance of torch/Rocm/nodes/onnx/drivers and more. It might be a great idea to update in most cases, but this has taken me months, and I have no wish to update all and risk having to delete everything and re-install (I’m especially looking at you, ReActor. A great little node, but picky as hell)… Due to possible health and family concerns, I am trying to add this to a public repo asap and have not written everything down yet. This will take a number of custom nodes that I think some people will have problems with, and it might not be the most efficient, but it is working for me, and I have only been using ComfyUI image generation for about 10 months now, and I have never really gone over the basic steps. I just learned today that the ComfyUI Manager has a snapshot manager…damn. That could have saved me about a month of work alone.
 
 > [!IMPORTANT]
-> ❗️Each section in steps 1 and 2 will have a ‘Preview Image’ box. The workflow does not use any auto-save method. Please only right-click and choose Save As in the ‘Preview Image’ box (this is fine with batch images as well). Saving from the ‘Image Comparer’ or anything else might not work or give unexpected results. The only exception is the video module at the very end, that does save a file after each run.
+> Each section in steps 1 and 2 will have a ‘Preview Image’ box. The workflow does not use any auto-save method. Please only right-click and choose Save As in the ‘Preview Image’ box (this is fine with batch images as well). Saving from the ‘Image Comparer’ or anything else might not work or give unexpected results. The only exception is the video module at the very end, which does save a file after each run.
 
+Examples:<details>
+<ul>
+    <li>Started with Generate Image from Text in step 1. The photo generated is not quite what I had in mind; the face is bad, the hands are weird, and the photo is generally bad. This is a great photo to use as a demonstration, and it gives a better example of the next step. </li>
+
+![Workflow Example 1](ex1a.jpg)
+
+<li>Lets take this bad image to step 2. The first module to try is '01) Fine Tune Image'. Creating the prompt for a different checkpoint while using the old image as a base, we have a new image that is closer to what I was thinking. The face and hands are still bad, but there is more.</li>
+
+![Workflow Example 1](ex1a.jpg)
+
+<li>Now, move back to the choose menu for step 2 and select </li>
+</ul>
 
 
 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1:</h1><br>
-First, start by selecting one of several different ways to start within the "Step 1" section 'Choose' box.<br>
+Step one is known as the "input" step where you can create an image or bring in any image to work on, inpaint is an example. First, start by selecting one of several different ways to start within the "Step 1" section 'Choose' box.
 
 ![Workflow Start](choose1.jpg)
 
@@ -69,20 +81,24 @@ First, start by selecting one of several different ways to start within the "Ste
             <li>cfg</li>
             <li>sampler_name</li>
             <li>scheduler</li>
-            <li>denoise</li>
-            <li>resolution</li>
+            <li>denoise - not needed for this function.</li>
+            <li>resolution - SXDL-sized options enabling easy selection between formats.</li>
             <li>batch_size</li>
             <li>stop_at_clip_layer -  option to control clip encoding for lesser or greater detail/control.</li>
-            <li>Low Vram - A toggleable setting enabling titled VAE for easier Vram use and Vram debugging and clearing to increase speed and efficiency.</li>
+            <li>Low Vram - A toggleable setting enabling titled VAE for easier Vram use, as well as Vram debugging and clearing to increase speed and efficiency. Enabling the Low Vram option will use tiled output and use the Vram debug to clear cache, collect garbage, and unload any model data. Disabling this option will use full VAE decode and will only use the Vram debug node to clear cache and collect garbage, but will not unload any model data.</li>
         </ul>
          <li>The rgthree seed selector node makes seed control much easier and faster.</li>
         <li>The power lora loader by rgthree to load any lora's you wish.</li>
-        <li>Prompt Library - This will enable you to choose a prompt by building it with a set of pre-made cards allowing you a starting pad to try new combinations.</li>
+        <li>Prompt Library - This will enable you to choose a prompt by building it with a set of pre-made cards, allowing you a starting pad to try new combinations.</li>
         <li>The 'Prompt Library 2 Auto Positive Prompt' and 'Prompt Library 2 Auto Negative Prompt' are where the selected prompt is displayed.</li>
         <li>The two boxes under that are the 'Additional Positive Prompt' positive prompt (Green as well) and 'Additional Negative Prompt' in red color, to enable a quick addition of any extra or typed prompts. This can be used in addition to the first positive prompt, the only positive prompt, or just left blank. It's all dynamic.</li>
         <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.</li>
-        <li>The ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.</li>
-        <li>The last two boxes represent the combined output of the auto prompt and the manual prompt, placed into the combined positive and negative prompts for added convenience.</li>
+        <li>The ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment. 
+            
+![Batch Number Menu](batch.jpg)
+
+ <li>The last two boxes represent the combined output of the auto prompt and the manual prompt, placed into the combined positive (pale blue) and negative (brown) prompts for added convenience.</li>
+        </ul>
 </ul></details><br>
   
 &nbsp;&nbsp;&nbsp;&nbsp;👉 Generate Image from Image and Text.<br> By default, it will create a batch of 4 images.<details>
@@ -92,7 +108,7 @@ First, start by selecting one of several different ways to start within the "Ste
       <li>the checkpoint, steps, cfg, and other normal settings, including the width and height. (Remember to mess with denoise to give the generating model more or less freedom in the new image!)
       <li>batch size should stay at 4, but I think 2 is doable, but not very tested.
       <li>Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
-      <li>stop_at_clip_layer option to control clip encoding for lesser or greater detail/control.
+      <li>stop_at_clip_layer option to control clip encoding for less or greater detail/control.
       <li>✏️Vram debugging and clearing to increase speed and efficiency.</li>
     </ul>
    <li>The power lora loader by rgthree to load any lora's you wish.
@@ -111,7 +127,7 @@ First, start by selecting one of several different ways to start within the "Ste
   <li>The Set box will have many options you can change, like the model, vae_name, clip layer, and so on.
     <ul>
       <li>Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
-      <li>stop_at_clip_layer option to control clip encoding for lesser or greater detail/control.
+      <li>stop_at_clip_layer option to control clip encoding for less or greater detail/control.
       <li>✏️Vram debugging and clearing to increase speed and efficiency.</li>
     </ul>
   <li>The rgthree seed selector node makes seed control much easier and faster.
@@ -150,11 +166,11 @@ First, start by selecting one of several different ways to start within the "Ste
     <ul>
       <li>batch size should stay at 4, but I think 2 is doable, but not very tested.
       <li>Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
-      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare it's description from the main image to a copy to visually see the differences.
+      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare its description from the main image to a copy to visually see the differences.
       <li>✏️Vram debugging and clearing to increase speed and efficiency. </li>
     </ul>
    <li>The rgthree seed selector node makes seed control much easier and faster.
-   <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node, and can't be directly edited.
+   <li>The Positive and negative prompts are actually just text as output from the imageInterrogator node and can't be directly edited.
    <li>The preview image box should show the image generated, and is always the best way to save any image you choose.
    <li>And the ‘Batch Image’ box, where you can select the image you want to use in Step 2. This is an updated number scheme where the first image is 1, then 2, and so on. This will send *only* the image from the batch that you like to send to "step 2"-image adjustment.
    </li>
@@ -164,9 +180,9 @@ First, start by selecting one of several different ways to start within the "Ste
 ❗️Due to it needing a different model in order to first read the image, there are two sections in the 'Florence2 image to text' box.<details>
 <ul>
    <li>Load Image box for any image you want the AI to 'see'. 
-  <li>The Set box will have many options you can change, like the model, steps, cfg, and so on. Any options above the 'Generate Image?' option in the box is for the Florence2 model. Any option under 'Generate Image?' is for generating a new image using the output.
+  <li>The Set box will have many options you can change, like the model, steps, cfg, and so on. Any options above the 'Generate Image?' option in the box are for the Florence2 model. Any option under 'Generate Image?' is for generating a new image using the output.
     <ul>
-      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare it's description from the main image to a copy to visually see the differences.
+      <li>'Generate Image' will take the text output and re-generate using only the text created, in batches, to compare its description from the main image to a copy to visually see the differences.
        <li>batch size should stay at 4, but I think 2 is doable, but not very tested.
       <li>Vram usage is selectable from 1 (full VAE decode) and 2 (tiled decode, using less Vram.)
       <li>✏️Vram debugging and clearing to increase speed and efficiency. </li>
@@ -199,7 +215,12 @@ Simple image restoration. The checkpoint selection for a model does nothing to t
 
 
 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2:</h1><br>
-You can choose to enable any option, or options, to continue. This was added to make it easier to generate several times until you get a result you want to work with. Just click any yes or no button(s) in the ‘Choose’ menu at step 2. All modules are fully modular and made to work in any combination or number, but they can not change the direction (i.e., no Upscale before Face Swap. Only Face Swap and then Upscale.) So you can use the Face Fix and the Upscale while leaving Fine Tune, Face Swap, and Blend and Adjust Face Expression disabled, and it should just skip them. But I suggest only activating extra groups one at a time (You don't have to process more until you are ready, otherwise it will be a lot of wasted generations and slow things down. A good example is if I wanted to do Face Fix and Upscale, I would first do Face Fix, then come back to this menu (press '2' to jump here) and then enable Upscale, leaving Face Fix still on.)<br><br>
+This is the edit section, where you can edit or refine the image created in step one. You can choose to enable any option or options to continue. Just click any yes or no button(s) in the ‘Choose’ menu at step 2. All modules are fully modular and made to work in any combination or number, but they can not change the direction (i.e., no Upscale before Face Swap. Only Face Swap and then Upscale.) So you can use the Face Fix and the Upscale while leaving Fine Tune, Face Swap, and Blend and Adjust Face Expression disabled, and it should just skip them. But I suggest only activating extra groups one at a time (You don't have to process more until you are ready; otherwise, it will be a lot of wasted generations and slow things down. A good example is if I wanted to do Face Fix and Upscale, I would first do Face Fix, then come back to this menu (press '2' to jump here) and then enable Upscale, leaving Face Fix still on.)
+
+![Workflow Step 2](step2.jpg)
+
+<br><br>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;👉 Fine Tune Image<br>
 Will take the one image you selected from the previous batch of pictures and give it a re-touch. A light re-draw to the full image to help with artifacts or changes. This will give you a new batch of 4 images (same "Batch image" and shows "Image #" as above).<details>
@@ -273,7 +294,7 @@ Use face swap to change the face on the image to another face. ReActor is a fast
       <li>✏️The only real setting you will want to change is the 'input_faces_index' to search for faces (starting from left to right, 0,1, etc.) So if you only want to change the second person's face in a photo, you would just put 1. It can take some playing with before it finds the right thing. Remember that anything that is close to a face counts! Posters, people way in the background, the Monalisa, a pile of garbage that kinda looks like a face if you squint really hard.</li>
     </ul>
    <li>Swap Choice box. A choice of auto-selecting up to 3 extra faces. This was put in to make it easier if you don't want to mess with the index count.
-   <li>ReActor Face Booster. You can try using this, or disable it. The booster is usually a little much and can make things look odd.
+   <li>ReActor Face Booster. You can try using this or disable it. The booster is usually a little much and can make things look odd.
    <li>Load Image box for any image you want to work on. 
    <li>Image Comparer (rgthree) allows you to compare the generated image to the original image.
    <li>The preview image box should show each image generated in the batch, and is always the best way to save any image you choose.
@@ -316,14 +337,17 @@ Change log
 
 1.45a (6/12/26)
 <ul>
-<li>Removed the `Quick Image` section in Step 1 options.</li>
+<li>Removed the `Quick Image` section from Step 1 options.</li>
 <li>Improved and deployed Vram subgraph to each section and module.</li>
-<li>Added several new sections to 'Generate Image from Text' box, including the custom Prompt Library node I have made. You can choose any prompt by clicking; this will affect both positive and negative prompting when changed. This will be built into a text string that will be shown under the node window, in green (for positive prompts) and red (for negative prompts). Two boxes are provided below them, both colored Green and red like the prompt boxes, allowing you to type anything to be added to the generator. </li>
+<li>Added several new sections to the 'Generate Image from Text' box, including the custom Prompt Library node I found and edited. You can choose any prompt by clicking; this will affect both positive and negative prompting when changed. The new prompt will be automatically built into a text string that will be shown under the node window, in green (for positive prompts) and red (for negative prompts). Two boxes are provided below them, both colored green and red like the prompt boxes, allowing you to type anything to be added to the generator. </li>
 <li>Added two windows at the end of the 'Generate Image from Text' box that give you a quick output of both the auto-prompt created by Prompt Library 2 and manual entry to easily copy and paste if needed.</li>
-<li>Added two new modules to Step 2 area. '02) Auto select inpaint with Florence2' and '03) Selectable inpaint with SEGS'.</li>
+<li>Added two new modules to the Step 2 area. '02) Auto select inpaint with Florence2' and '03) Selectable inpaint with SEGS'.</li>
 <li>Added four new options in '10) Blend and Adjust Face Expression'. PencilSketch, FilmGrain, Quantize, and Solarize can be used individually or combined for different effects.</li>
 <li>Skin Fix, Face Fix now has a dedicated checkpoint loader. Hand Fix still uses the original model.</li>
 <li>Ksampler Cycle Fix now has a 'Custom' toggle button to use in place of the original model/clip/prompts</li>
+    <li>Refined image swapping logic between steps and within modules.</li>
+<li>Changed notification sound after image/video generation from the 'ComfyUI-Notifications' nodes to the 'comfyui-custom-scripts' node set. I really like the system notification node that I can use for the video generation module. Try to ignore the error about the path in the server console. The creator is aware of this, but assures it is working fine. I find it slightly annoying, but after fighting every step of the way with editing the prompt library node, I get it. It works, next subject.</li>
+
 </ul><br>
     
     
