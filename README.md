@@ -51,6 +51,7 @@ To give an example, I generally use:
 > Each section in steps 1 and 2 will have a ‘Preview Image’ box. The workflow does not use any auto-save method. Please only right-click and choose Save As in the ‘Preview Image’ box (this is fine with batch images as well). Saving from the ‘Image Comparer’ or anything else might not work or give unexpected results. The only exception is the video module at the very end, which does save a file after each run.
 
 Examples:<details>
+<hr>
 <ul>
     <li>Started with Generate Image from Text in step 1. The photo generated is not quite what I had in mind; the face is bad, the hands are weird, and the photo is generally bad. This is a great photo to use as a demonstration, and it gives a better example of the next step. </li>
 
@@ -58,11 +59,20 @@ Examples:<details>
 
 <li>Lets take this bad image to step 2. The first module to try is '01) Fine Tune Image'. Creating the prompt for a different checkpoint while using the old image as a base, we have a new image that is closer to what I was thinking. The face and hands are still bad, but there is more.</li>
 
-![Workflow Example 1](ex1a.jpg)
+![Workflow Example 1](ex1b.jpg)
 
-<li>Now, move back to the choose menu for step 2 and select </li>
+<li>Now, move back to the choose menu for step 2 and select faceswap and hand fix</li>
+
+![Workflow Example 1](ex1c.jpg)
+![Workflow Example 1](ex1d.jpg)
+
+<li> Leaving us at the '07) Ksampler Cycle Fix' module where it will help blend any of these changes and upscale the image.</li>
+
+![Workflow Example 1](ex1e.jpg)
+
 </ul>
-
+<hr>
+</details>
 
 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1:</h1><br>
 Step one is known as the "input" step where you can create an image or bring in any image to work on, inpaint is an example. First, start by selecting one of several different ways to start within the "Step 1" section 'Choose' box.
