@@ -74,10 +74,44 @@ Example 1:
 
 ![Workflow Example 1](Archive/EX1/ex1e.jpg)
 
+Finished png with workflow:
+
+![Workflow Example 1](Archive/EX1/output.png)
+
 </ul>
 <hr>
 <hr></details>
 
+Example 2:
+
+![Workflow Example 2](Archive/EX2/Project.jpg)
+
+<details><hr>
+<ul>
+    <li>Started with Generate Image from Image and Text in step 1.  I am using the output frrom the above example as an the base photo.</li>
+
+![Workflow Example 1](Archive/EX2/ex2b.jpg)
+
+<li>The first module to try is '01) Fine Tune Image'. Creating the prompt for a different checkpoint while using the old image as a base, we have a new image that is closer to what I was thinking. The face and hands are still bad, but there is more.</li>
+
+![Workflow Example 1](Archive/EX2/ex2c.jpg)
+
+<li>Now, move back to the choose menu for step 2 and select faceswap and hand fix</li>
+
+![Workflow Example 1](Archive/EX2/ex2d.jpg)
+![Workflow Example 1](Archive/EX2/ex2e.jpg)
+
+<li>Press '2' to go back to the choose menu again and select 'Blend and Adjust Face Expression' with the options for 'Remove Background' and 'PencilSketch' enabled.
+
+![Workflow Example 1](Archive/EX2/ex2f.jpg)
+
+Finished png with workflow:
+
+![Workflow Example 1](Archive/EX2/output.png)
+
+</ul>
+<hr>
+<hr></details>
 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Step 1:</ins></h1><br>
 Step one is known as the "input" step where you can create an image or bring in any image to work on, inpaint is an example. First, start by selecting one of several different ways to start within the "Step 1" section 'Choose' box.
 
@@ -407,8 +441,8 @@ Change log
 <li>Added several new sections to the 'Generate Image from Text' box, including the custom Prompt Library node I found and edited. You can choose any prompt by clicking; this will affect both positive and negative prompting when changed. The new prompt will be automatically built into a text string that will be shown under the node window, in green (for positive prompts) and red (for negative prompts). Two boxes are provided below them, both colored green and red like the prompt boxes, allowing you to type anything to be added to the generator. </li>
 <li>Added two windows at the end of the 'Generate Image from Text' box that give you a quick output of both the auto-prompt created by Prompt Library 2 and manual entry to easily copy and paste if needed.</li>
 <li>Added two new modules to the Step 2 area. '02) Auto select inpaint with Florence2' and '03) Selectable inpaint with SEGS'.</li>
-<li>Added four new options in '10) Blend and Adjust Face Expression'. PencilSketch, FilmGrain, Quantize, and Solarize can be used individually or combined for different effects.</li>
-<li>Skin Fix, Face Fix now has a dedicated checkpoint loader. Hand Fix still uses the original model.</li>
+<li>Added five new options in '10) Blend and Adjust Face Expression'. <ul><li>Remove Background</li><li>Quantize</li><li>Solarize</li><li>PencilSketch</li><li>FilmGrain</li> can be used individually or combined for different effects.</ul>
+<li>Skin Fix and Face Fix now have a dedicated checkpoint loader. Hand Fix still uses the original model.</li>
 <li>Ksampler Cycle Fix now has a 'Custom' toggle button to use in place of the original model/clip/prompts</li>
     <li>Refined image swapping logic between steps and within modules.</li>
 <li>Changed notification sound after image/video generation from the 'ComfyUI-Notifications' nodes to the 'comfyui-custom-scripts' node set. I really like the system notification node that I can use for the video generation module. Try to ignore the error about the path in the server console. The creator is aware of this, but assures it is working fine. I find it slightly annoying, but after fighting every step of the way with editing the prompt library node, I get it. It works, next subject.</li>
