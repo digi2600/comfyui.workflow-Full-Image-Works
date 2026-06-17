@@ -1,8 +1,8 @@
 {
-  "id": "bc635822-9898-44ca-b707-d90a1889df63",
+  "id": "c04eeb9c-45b2-47d5-b13f-53662942900c",
   "revision": 0,
-  "last_node_id": 3246,
-  "last_link_id": 4821,
+  "last_node_id": 3254,
+  "last_link_id": 4846,
   "nodes": [
     {
       "id": 2221,
@@ -129,7 +129,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 78,
+      "order": 75,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -382,7 +382,7 @@
         "collapsed": true
       },
       "order": 229,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "RGTHREE_CONTEXT",
@@ -458,7 +458,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 104,
+      "order": 100,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -639,7 +639,7 @@
         130
       ],
       "flags": {},
-      "order": 81,
+      "order": 78,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -869,7 +869,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 110,
+      "order": 106,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -904,8 +904,8 @@
         314.0000000000002
       ],
       "flags": {},
-      "order": 9,
-      "mode": 4,
+      "order": 133,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -936,7 +936,7 @@
         }
       },
       "widgets_values": [
-        "example.png",
+        "output.png",
         "image"
       ]
     },
@@ -1121,7 +1121,7 @@
         "collapsed": true
       },
       "order": 237,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "RGTHREE_CONTEXT",
@@ -1161,8 +1161,8 @@
         280.3206931521214
       ],
       "flags": {},
-      "order": 77,
-      "mode": 0,
+      "order": 74,
+      "mode": 4,
       "inputs": [],
       "outputs": [],
       "properties": {
@@ -1192,7 +1192,7 @@
       ],
       "flags": {},
       "order": 238,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "",
@@ -1234,7 +1234,7 @@
       ],
       "flags": {},
       "order": 239,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -1276,7 +1276,7 @@
         314.0000000000002
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1320,7 +1320,7 @@
         438.79124159380945
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -1368,7 +1368,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1405,7 +1405,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1484,7 +1484,7 @@
       ],
       "flags": {},
       "order": 241,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -1516,7 +1516,7 @@
         }
       },
       "widgets_values": [
-        "watermark, animated, drawn, painted, ugly, glitch, malformed, text, words, letters"
+        "text, words, letters. "
       ],
       "color": "#322",
       "bgcolor": "#533"
@@ -1534,7 +1534,7 @@
       ],
       "flags": {},
       "order": 242,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -1570,7 +1570,7 @@
         "collapsed": true
       },
       "order": 243,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "dir": 3,
@@ -1719,8 +1719,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 103,
-      "mode": 0,
+      "order": 99,
+      "mode": 4,
       "inputs": [],
       "outputs": [],
       "title": "                  ⬆️\\nRemember to choose \\nthe image number",
@@ -1757,7 +1757,7 @@
         "collapsed": true
       },
       "order": 244,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "clip",
@@ -1814,7 +1814,7 @@
       ],
       "flags": {},
       "order": 245,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "conditioning_1",
@@ -1856,13 +1856,13 @@
         6420.173750384724
       ],
       "size": [
-        5564.95078125,
-        26
+        3428.6484375,
+        12
       ],
       "flags": {
         "allow_interaction": true
       },
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1899,7 +1899,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 71,
+      "order": 68,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1937,7 +1937,7 @@
         "collapsed": true
       },
       "order": 246,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -2086,8 +2086,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 106,
-      "mode": 4,
+      "order": 102,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "                  ⬆️\\nRemember to choose \\nthe image number\\n",
@@ -2122,7 +2122,7 @@
       ],
       "flags": {},
       "order": 247,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -2385,7 +2385,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 107,
+      "order": 103,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -2572,7 +2572,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 108,
+      "order": 104,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -2813,7 +2813,7 @@
         438.79124159380945
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2906,8 +2906,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 87,
-      "mode": 0,
+      "order": 84,
+      "mode": 4,
       "inputs": [],
       "outputs": [],
       "title": "                ⬆️ \\nThis shows a preview\\nthat you can save",
@@ -2942,7 +2942,7 @@
       ],
       "flags": {},
       "order": 251,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -2971,29 +2971,14 @@
       "widgets_values": [
         [
           {
-            "name": "A1",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_vygsp_00001_.png&type=temp&subfolder=&rand=0.1786954544951992"
-          },
-          {
-            "name": "A2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_vygsp_00002_.png&type=temp&subfolder=&rand=0.9506239945443203"
-          },
-          {
-            "name": "A3",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_vygsp_00003_.png&type=temp&subfolder=&rand=0.4817562934637152"
-          },
-          {
-            "name": "A4",
+            "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_vygsp_00004_.png&type=temp&subfolder=&rand=0.669245341377606"
+            "url": "/api/view?filename=rgthree.compare._temp_sftlb_00193_.png&type=temp&subfolder=&rand=0.5309807079497285"
           },
           {
-            "name": "B1",
+            "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_vygsp_00005_.png&type=temp&subfolder=&rand=0.20518385782030502"
+            "url": "/api/view?filename=rgthree.compare._temp_sftlb_00194_.png&type=temp&subfolder=&rand=0.8678107868385506"
           }
         ]
       ]
@@ -3012,8 +2997,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 16,
-      "mode": 4,
+      "order": 15,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "                ⬆️ \\nThis shows a preview\\nthat you can save",
@@ -3049,7 +3034,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 17,
+      "order": 16,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -3084,8 +3069,8 @@
         130
       ],
       "flags": {},
-      "order": 80,
-      "mode": 4,
+      "order": 77,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -3212,7 +3197,7 @@
         130
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -3469,7 +3454,7 @@
         130
       ],
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -3513,7 +3498,7 @@
         211.82068145533594
       ],
       "flags": {},
-      "order": 154,
+      "order": 169,
       "mode": 4,
       "inputs": [
         {
@@ -3540,7 +3525,9 @@
           "version": "7.6.2"
         }
       },
-      "widgets_values": []
+      "widgets_values": [
+        "The image is a digital illustration of a cartoon character with a blue sky and green grass in the background. The character is wearing a pink dress and has a pair of large, yellow wings on its head. The wings are spread out behind the character, with two white clouds on either side. The bunny has blue eyes and a big smile on its face. The overall style of the illustration is simple and cartoon-like."
+      ]
     },
     {
       "id": 2289,
@@ -3556,7 +3543,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 20,
+      "order": 19,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -3593,7 +3580,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 21,
+      "order": 20,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -3630,7 +3617,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 22,
+      "order": 21,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -3667,7 +3654,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 23,
+      "order": 22,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -3702,7 +3689,7 @@
         698.3377929781918
       ],
       "flags": {},
-      "order": 155,
+      "order": 170,
       "mode": 4,
       "inputs": [
         {
@@ -3738,7 +3725,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 173,
+      "order": 188,
       "mode": 4,
       "inputs": [
         {
@@ -3888,7 +3875,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 190,
+      "order": 198,
       "mode": 4,
       "inputs": [
         {
@@ -3929,7 +3916,7 @@
         78
       ],
       "flags": {},
-      "order": 156,
+      "order": 171,
       "mode": 4,
       "inputs": [
         {
@@ -3987,7 +3974,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 109,
+      "order": 105,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -4022,7 +4009,7 @@
         130
       ],
       "flags": {},
-      "order": 24,
+      "order": 23,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4066,7 +4053,7 @@
         314
       ],
       "flags": {},
-      "order": 25,
+      "order": 134,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4157,7 +4144,7 @@
         314.0000000000009
       ],
       "flags": {},
-      "order": 26,
+      "order": 24,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -4573,7 +4560,7 @@
       ],
       "flags": {},
       "order": 261,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -4605,7 +4592,7 @@
         }
       },
       "widgets_values": [
-        ""
+        "Street live. Main city at morning day light. Empty parking lot. Quite morning, no one in sight. She is dressed like a street girl. Punk vibes. long dark hair, Old, ratty shirt, white undershirt, baggy pants, sneakers. very skinny, big breasts"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -4614,8 +4601,8 @@
       "id": 2307,
       "type": "CLIPTextEncode",
       "pos": [
-        -785.447530025885,
-        109.92190101993344
+        -782.7202572986125,
+        -83.71446261643017
       ],
       "size": [
         210,
@@ -4623,7 +4610,7 @@
       ],
       "flags": {},
       "order": 262,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "clip",
@@ -4680,7 +4667,7 @@
       ],
       "flags": {},
       "order": 263,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "image",
@@ -4727,8 +4714,8 @@
       "id": 2309,
       "type": "PreviewImage",
       "pos": [
-        -187.67332061157393,
-        -833.5873754686605
+        -177.87215724129072,
+        -836.2604200241923
       ],
       "size": [
         1179.8177875636297,
@@ -4736,7 +4723,7 @@
       ],
       "flags": {},
       "order": 264,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "images",
@@ -4761,8 +4748,8 @@
       "id": 2310,
       "type": "CLIPTextEncode",
       "pos": [
-        -1024.921615537644,
-        117.58502539113033
+        -1048.557979174008,
+        -94.23315642705144
       ],
       "size": [
         210,
@@ -4770,7 +4757,7 @@
       ],
       "flags": {},
       "order": 265,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "clip",
@@ -4824,8 +4811,8 @@
         131.3513057093105
       ],
       "flags": {},
-      "order": 123,
-      "mode": 0,
+      "order": 118,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -4873,7 +4860,7 @@
       ],
       "flags": {},
       "order": 266,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -5043,7 +5030,7 @@
       ],
       "flags": {},
       "order": 267,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -5113,7 +5100,7 @@
       ],
       "flags": {},
       "order": 268,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "dir": 3,
@@ -5165,12 +5152,6 @@
         {},
         {
           "type": "PowerLoraLoaderHeaderWidget"
-        },
-        {
-          "on": false,
-          "lora": "PONY-Breast Size Slider.safetensors",
-          "strength": 1.25,
-          "strengthTwo": null
         },
         {},
         ""
@@ -5255,7 +5236,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 27,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5292,7 +5273,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 28,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5321,7 +5302,7 @@
         239.1630903491805
       ],
       "flags": {},
-      "order": 29,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -5350,7 +5331,7 @@
         279.2974548339844
       ],
       "flags": {},
-      "order": 86,
+      "order": 83,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5401,7 +5382,7 @@
       ],
       "flags": {},
       "order": 270,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "model",
@@ -5425,6 +5406,78 @@
             "name": "seed"
           },
           "link": 3426
+        },
+        {
+          "label": "ckpt_name",
+          "name": "ckpt_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "ckpt_name"
+          },
+          "link": null
+        },
+        {
+          "label": "steps",
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "link": null
+        },
+        {
+          "label": "cfg",
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          },
+          "link": null
+        },
+        {
+          "label": "sampler_name",
+          "name": "sampler_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": null
+        },
+        {
+          "label": "scheduler",
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          },
+          "link": null
+        },
+        {
+          "label": "resolution",
+          "name": "resolution",
+          "type": "COMBO",
+          "widget": {
+            "name": "resolution"
+          },
+          "link": null
+        },
+        {
+          "label": "batch_size",
+          "name": "batch_size",
+          "type": "INT",
+          "widget": {
+            "name": "batch_size"
+          },
+          "link": null
+        },
+        {
+          "label": "stop_at_clip_layer",
+          "name": "stop_at_clip_layer",
+          "type": "INT",
+          "widget": {
+            "name": "stop_at_clip_layer"
+          },
+          "link": null
         },
         {
           "label": "Low Vram",
@@ -5500,10 +5553,6 @@
           [
             "1128",
             "scheduler"
-          ],
-          [
-            "1128",
-            "denoise"
           ],
           [
             "2629",
@@ -5718,7 +5767,7 @@
         732
       ],
       "flags": {},
-      "order": 139,
+      "order": 149,
       "mode": 4,
       "inputs": [
         {
@@ -5934,7 +5983,7 @@
         250
       ],
       "flags": {},
-      "order": 134,
+      "order": 135,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -5970,13 +6019,13 @@
         7246.63942355195
       ],
       "size": [
-        5564.95078125,
-        26
+        3428.6484375,
+        12
       ],
       "flags": {
         "allow_interaction": true
       },
-      "order": 30,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -6012,7 +6061,7 @@
       ],
       "flags": {},
       "order": 271,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -6044,7 +6093,7 @@
       "type": "ColorCorrect",
       "pos": [
         12876.165575065337,
-        715.6611873031325
+        714.5239044093162
       ],
       "size": [
         322.82376863667923,
@@ -6052,12 +6101,12 @@
       ],
       "flags": {},
       "order": 272,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 3435
+          "link": 4840
         }
       ],
       "outputs": [
@@ -6065,7 +6114,7 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            4813
+            4822
           ]
         }
       ],
@@ -6102,8 +6151,8 @@
         30
       ],
       "flags": {},
-      "order": 198,
-      "mode": 4,
+      "order": 197,
+      "mode": 0,
       "inputs": [
         {
           "dir": 4,
@@ -6155,7 +6204,7 @@
       ],
       "flags": {},
       "order": 211,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -6205,7 +6254,7 @@
         30
       ],
       "flags": {},
-      "order": 31,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -6255,7 +6304,7 @@
       ],
       "flags": {},
       "order": 273,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -6307,7 +6356,7 @@
       ],
       "flags": {},
       "order": 223,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 4,
@@ -6358,7 +6407,7 @@
       ],
       "flags": {},
       "order": 224,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 4,
@@ -6460,7 +6509,7 @@
       ],
       "flags": {},
       "order": 214,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -6562,7 +6611,7 @@
       ],
       "flags": {},
       "order": 213,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -6665,7 +6714,7 @@
         30
       ],
       "flags": {},
-      "order": 197,
+      "order": 196,
       "mode": 4,
       "inputs": [
         {
@@ -6758,7 +6807,7 @@
       ],
       "flags": {},
       "order": 275,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -6792,7 +6841,7 @@
       ],
       "flags": {},
       "order": 276,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "mask",
@@ -6928,7 +6977,7 @@
       ],
       "flags": {},
       "order": 280,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -6959,12 +7008,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_cxfrv_00001_.png&type=temp&subfolder=&rand=0.9134481072359112"
+            "url": "/api/view?filename=rgthree.compare._temp_afaei_00133_.png&type=temp&subfolder=&rand=0.574549767600953"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_cxfrv_00002_.png&type=temp&subfolder=&rand=0.916646632523956"
+            "url": "/api/view?filename=rgthree.compare._temp_afaei_00134_.png&type=temp&subfolder=&rand=0.062242671383861636"
           }
         ]
       ]
@@ -6983,8 +7032,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 32,
-      "mode": 4,
+      "order": 30,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "⬅️ This shows a Comparison\\n       to the original image",
@@ -7069,7 +7118,7 @@
         326
       ],
       "flags": {},
-      "order": 72,
+      "order": 69,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -7118,7 +7167,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 33,
+      "order": 31,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -7155,8 +7204,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 34,
-      "mode": 0,
+      "order": 32,
+      "mode": 4,
       "inputs": [],
       "outputs": [],
       "title": "|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n",
@@ -7192,7 +7241,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 35,
+      "order": 33,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -7360,7 +7409,7 @@
         82
       ],
       "flags": {},
-      "order": 179,
+      "order": 178,
       "mode": 4,
       "inputs": [
         {
@@ -7672,7 +7721,7 @@
         30
       ],
       "flags": {},
-      "order": 159,
+      "order": 156,
       "mode": 4,
       "inputs": [
         {
@@ -7877,7 +7926,7 @@
         78
       ],
       "flags": {},
-      "order": 196,
+      "order": 195,
       "mode": 4,
       "inputs": [
         {
@@ -7937,7 +7986,7 @@
         30
       ],
       "flags": {},
-      "order": 180,
+      "order": 179,
       "mode": 4,
       "inputs": [
         {
@@ -7988,7 +8037,7 @@
         30
       ],
       "flags": {},
-      "order": 158,
+      "order": 155,
       "mode": 4,
       "inputs": [
         {
@@ -8039,7 +8088,7 @@
       ],
       "flags": {},
       "order": 286,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -8087,7 +8136,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 36,
+      "order": 130,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -8205,12 +8254,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_uxvvx_00005_.png&type=temp&subfolder=&rand=0.9415134188543207"
+            "url": "/api/view?filename=rgthree.compare._temp_vquim_00025_.png&type=temp&subfolder=&rand=0.6896825158364308"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_uxvvx_00006_.png&type=temp&subfolder=&rand=0.05899098400016911"
+            "url": "/api/view?filename=rgthree.compare._temp_vquim_00026_.png&type=temp&subfolder=&rand=0.7192668522224509"
           }
         ]
       ]
@@ -8319,7 +8368,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 82,
+      "order": 79,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -8350,14 +8399,14 @@
         -281.65243341487354
       ],
       "size": [
-        246.794921875,
+        408.589453125,
         46
       ],
       "flags": {
         "allow_interaction": true
       },
-      "order": 37,
-      "mode": 4,
+      "order": 34,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "⬅️ This shows a Comparison\\n       to the original image",
@@ -8393,7 +8442,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 83,
+      "order": 80,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -8430,7 +8479,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 38,
+      "order": 35,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -8523,7 +8572,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 69,
+      "order": 66,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -8599,7 +8648,7 @@
       ],
       "flags": {},
       "order": 293,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 1,
@@ -8613,7 +8662,7 @@
         {
           "dir": 4,
           "label": " ",
-          "name": "image",
+          "name": "IMAGE",
           "type": "IMAGE",
           "links": [
             3545
@@ -8650,21 +8699,21 @@
       ],
       "flags": {},
       "order": 294,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
           "label": " ",
           "name": "",
           "type": "*",
-          "link": 3503
+          "link": 4846
         }
       ],
       "outputs": [
         {
           "dir": 2,
           "label": " ",
-          "name": "image",
+          "name": "IMAGE",
           "type": "IMAGE",
           "links": [
             3502
@@ -8702,8 +8751,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 119,
-      "mode": 4,
+      "order": 115,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "⬅️ This shows a preview\\n       that you can save",
@@ -8729,7 +8778,7 @@
       "id": 2413,
       "type": "PreviewImage",
       "pos": [
-        14586.992175027639,
+        14588.505898559308,
         543.3710936968579
       ],
       "size": [
@@ -8738,12 +8787,12 @@
       ],
       "flags": {},
       "order": 295,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 3504
+          "link": 4845
         }
       ],
       "outputs": [],
@@ -8773,8 +8822,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 120,
-      "mode": 4,
+      "order": 116,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "⬅️ This shows a Comparison\\n       to the original image",
@@ -8800,22 +8849,22 @@
       "id": 2415,
       "type": "Image Comparer (rgthree)",
       "pos": [
-        13515.408927281218,
-        547.2650366040956
+        13558.743954667205,
+        541.7605873980252
       ],
       "size": [
-        1063.269855066204,
-        938.2678978275583
+        1008.7758079261016,
+        951.8914096125839
       ],
       "flags": {},
       "order": 296,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
           "name": "image_a",
           "type": "IMAGE",
-          "link": 3505
+          "link": 4844
         },
         {
           "dir": 3,
@@ -8840,12 +8889,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_sqphq_00031_.png&type=temp&subfolder=&rand=0.7233098161307043"
+            "url": "/api/view?filename=rgthree.compare._temp_frecs_00101_.png&type=temp&subfolder=&rand=0.4715004015716945"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_sqphq_00032_.png&type=temp&subfolder=&rand=0.31991812059135727"
+            "url": "/api/view?filename=rgthree.compare._temp_frecs_00102_.png&type=temp&subfolder=&rand=0.8906969686178076"
           }
         ]
       ]
@@ -8858,13 +8907,13 @@
         -1077.6409784222383
       ],
       "size": [
-        13.1171875,
+        2178.5298828125,
         1438
       ],
       "flags": {
         "allow_interaction": true
       },
-      "order": 39,
+      "order": 36,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -8895,13 +8944,13 @@
         376.69422219841965
       ],
       "size": [
-        13.1171875,
+        2178.5298828125,
         1438
       ],
       "flags": {
         "allow_interaction": true
       },
-      "order": 40,
+      "order": 37,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -8938,7 +8987,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 91,
+      "order": 87,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -9334,7 +9383,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 98,
+      "order": 94,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -9371,7 +9420,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 140,
+      "order": 139,
       "mode": 4,
       "inputs": [
         {
@@ -9417,7 +9466,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 141,
+      "order": 140,
       "mode": 4,
       "inputs": [
         {
@@ -9549,7 +9598,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 142,
+      "order": 141,
       "mode": 4,
       "inputs": [
         {
@@ -9691,7 +9740,7 @@
         358.6280991735539
       ],
       "flags": {},
-      "order": 41,
+      "order": 38,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -9910,7 +9959,7 @@
         352.8429752066122
       ],
       "flags": {},
-      "order": 125,
+      "order": 120,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10013,7 +10062,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 42,
+      "order": 39,
       "mode": 4,
       "inputs": [
         {
@@ -10064,7 +10113,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 130,
+      "order": 125,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -10185,13 +10234,13 @@
         1000.8385221646472
       ],
       "size": [
-        246.794921875,
+        408.589453125,
         46
       ],
       "flags": {
         "allow_interaction": true
       },
-      "order": 129,
+      "order": 124,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -10280,7 +10329,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 96,
+      "order": 92,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -10351,7 +10400,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 43,
+      "order": 40,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -10436,7 +10485,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 44,
+      "order": 41,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -10554,12 +10603,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_dxtdz_00043_.png&type=temp&subfolder=&rand=0.8234574384559851"
+            "url": "/api/view?filename=rgthree.compare._temp_ttrru_00023_.png&type=temp&subfolder=&rand=0.11151014171539464"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_dxtdz_00044_.png&type=temp&subfolder=&rand=0.7300747079186337"
+            "url": "/api/view?filename=rgthree.compare._temp_ttrru_00024_.png&type=temp&subfolder=&rand=0.66418672077012"
           }
         ]
       ]
@@ -10629,7 +10678,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 100,
+      "order": 96,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -10666,7 +10715,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 94,
+      "order": 90,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -10702,7 +10751,7 @@
       ],
       "flags": {},
       "order": 316,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "",
@@ -10715,8 +10764,8 @@
           "name": "SWAPPED_IMAGE",
           "type": "IMAGE",
           "links": [
-            3435,
-            3506
+            3506,
+            4838
           ]
         }
       ],
@@ -11048,7 +11097,7 @@
       ],
       "outputs": [
         {
-          "name": "image",
+          "name": "IMAGE",
           "type": "IMAGE",
           "links": [
             3549,
@@ -11082,7 +11131,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 45,
+      "order": 42,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -11170,7 +11219,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 73,
+      "order": 70,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -11207,7 +11256,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 46,
+      "order": 43,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -11384,8 +11433,8 @@
         82
       ],
       "flags": {},
-      "order": 47,
-      "mode": 4,
+      "order": 44,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -11423,8 +11472,8 @@
         78
       ],
       "flags": {},
-      "order": 48,
-      "mode": 4,
+      "order": 45,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -11466,7 +11515,7 @@
         30
       ],
       "flags": {},
-      "order": 178,
+      "order": 177,
       "mode": 0,
       "inputs": [
         {
@@ -11519,7 +11568,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 49,
+      "order": 46,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -11558,7 +11607,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 50,
+      "order": 47,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -11597,7 +11646,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 51,
+      "order": 48,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -11636,7 +11685,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 67,
+      "order": 64,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -11727,7 +11776,7 @@
         178
       ],
       "flags": {},
-      "order": 115,
+      "order": 111,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -11772,7 +11821,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 79,
+      "order": 76,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -11809,7 +11858,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 52,
+      "order": 49,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -11846,8 +11895,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 53,
-      "mode": 4,
+      "order": 50,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "                  ⬆️\\n This shows a preview\\n   that you can save",
@@ -11882,7 +11931,7 @@
       ],
       "flags": {},
       "order": 323,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -11916,7 +11965,7 @@
       ],
       "flags": {},
       "order": 324,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -11950,7 +11999,7 @@
       ],
       "flags": {},
       "order": 325,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -12069,7 +12118,7 @@
         58
       ],
       "flags": {},
-      "order": 101,
+      "order": 97,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -12374,7 +12423,7 @@
         356.45890000000054
       ],
       "flags": {},
-      "order": 54,
+      "order": 51,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -12423,7 +12472,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 76,
+      "order": 73,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -12453,7 +12502,7 @@
         130
       ],
       "flags": {},
-      "order": 117,
+      "order": 113,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -12499,7 +12548,7 @@
         145.75390691102137
       ],
       "flags": {},
-      "order": 75,
+      "order": 72,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -12655,7 +12704,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 55,
+      "order": 52,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -12677,8 +12726,8 @@
       "id": 2504,
       "type": "ExpressionEditor",
       "pos": [
-        13233.684039286374,
-        544.6871238723845
+        13269.321409701188,
+        546.334688767844
       ],
       "size": [
         270,
@@ -12686,13 +12735,13 @@
       ],
       "flags": {},
       "order": 333,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "src_image",
           "shape": 7,
           "type": "IMAGE",
-          "link": 4817
+          "link": 4822
         },
         {
           "name": "motion_link",
@@ -12718,9 +12767,7 @@
           "name": "image",
           "type": "IMAGE",
           "links": [
-            3503,
-            3504,
-            3505
+            4841
           ]
         },
         {
@@ -12761,16 +12808,16 @@
         }
       },
       "widgets_values": [
-        9,
-        -14,
-        5,
-        5,
-        15,
         0,
         0,
-        -5,
+        0.5,
+        -0.5,
+        4,
         0,
-        15,
+        0,
+        0.5,
+        0,
+        0,
         0.4,
         0,
         1,
@@ -12792,8 +12839,8 @@
         30
       ],
       "flags": {},
-      "order": 195,
-      "mode": 4,
+      "order": 194,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -12836,16 +12883,16 @@
       "id": 2506,
       "type": "PreviewImage",
       "pos": [
-        5282.7402980195375,
-        -888.8090238162348
+        6382.899554460222,
+        -887.131951778978
       ],
       "size": [
-        1098.8888955843777,
-        1030.9468657255447
+        248.6133726950029,
+        258
       ],
       "flags": {},
       "order": 334,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -12882,7 +12929,7 @@
       ],
       "flags": {},
       "order": 335,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -12929,7 +12976,7 @@
         30
       ],
       "flags": {},
-      "order": 56,
+      "order": 53,
       "mode": 4,
       "inputs": [
         {
@@ -12978,7 +13025,7 @@
         30
       ],
       "flags": {},
-      "order": 146,
+      "order": 145,
       "mode": 4,
       "inputs": [
         {
@@ -13029,7 +13076,7 @@
         30
       ],
       "flags": {},
-      "order": 161,
+      "order": 158,
       "mode": 4,
       "inputs": [
         {
@@ -13080,7 +13127,7 @@
         30
       ],
       "flags": {},
-      "order": 183,
+      "order": 182,
       "mode": 4,
       "inputs": [
         {
@@ -13131,7 +13178,7 @@
         30
       ],
       "flags": {},
-      "order": 163,
+      "order": 160,
       "mode": 4,
       "inputs": [
         {
@@ -13182,7 +13229,7 @@
         30
       ],
       "flags": {},
-      "order": 181,
+      "order": 180,
       "mode": 4,
       "inputs": [
         {
@@ -13233,7 +13280,7 @@
         30
       ],
       "flags": {},
-      "order": 182,
+      "order": 181,
       "mode": 4,
       "inputs": [
         {
@@ -13284,7 +13331,7 @@
         30
       ],
       "flags": {},
-      "order": 162,
+      "order": 159,
       "mode": 4,
       "inputs": [
         {
@@ -13335,7 +13382,7 @@
         30
       ],
       "flags": {},
-      "order": 160,
+      "order": 157,
       "mode": 4,
       "inputs": [
         {
@@ -13433,7 +13480,7 @@
       ],
       "flags": {},
       "order": 336,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -13464,12 +13511,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_sopsk_00001_.png&type=temp&subfolder=&rand=0.08837793776801994"
+            "url": "/api/view?filename=rgthree.compare._temp_qpdeu_00141_.png&type=temp&subfolder=&rand=0.42867043698720286"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_sopsk_00002_.png&type=temp&subfolder=&rand=0.7510293263072904"
+            "url": "/api/view?filename=rgthree.compare._temp_qpdeu_00142_.png&type=temp&subfolder=&rand=0.5859234965070144"
           }
         ]
       ]
@@ -13486,8 +13533,8 @@
         30
       ],
       "flags": {},
-      "order": 184,
-      "mode": 4,
+      "order": 183,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -13537,8 +13584,8 @@
         30
       ],
       "flags": {},
-      "order": 186,
-      "mode": 4,
+      "order": 185,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -13589,7 +13636,7 @@
       ],
       "flags": {},
       "order": 209,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -13640,7 +13687,7 @@
       ],
       "flags": {},
       "order": 337,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -13687,8 +13734,8 @@
         30
       ],
       "flags": {},
-      "order": 167,
-      "mode": 4,
+      "order": 164,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -13738,8 +13785,8 @@
         30
       ],
       "flags": {},
-      "order": 164,
-      "mode": 4,
+      "order": 161,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -13789,8 +13836,8 @@
         30
       ],
       "flags": {},
-      "order": 165,
-      "mode": 4,
+      "order": 162,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -13840,8 +13887,8 @@
         30
       ],
       "flags": {},
-      "order": 185,
-      "mode": 4,
+      "order": 184,
+      "mode": 0,
       "inputs": [
         {
           "dir": 1,
@@ -13892,7 +13939,7 @@
       ],
       "flags": {},
       "order": 210,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 2,
@@ -13943,7 +13990,7 @@
       ],
       "flags": {},
       "order": 222,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -13988,8 +14035,8 @@
         30
       ],
       "flags": {},
-      "order": 166,
-      "mode": 4,
+      "order": 163,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -14039,8 +14086,8 @@
         30
       ],
       "flags": {},
-      "order": 148,
-      "mode": 4,
+      "order": 147,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -14122,12 +14169,12 @@
           {
             "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_byuub_00001_.png&type=temp&subfolder=&rand=0.07756272611550463"
+            "url": "/api/view?filename=rgthree.compare._temp_hqklp_00001_.png&type=temp&subfolder=&rand=0.49014036337672917"
           },
           {
             "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_byuub_00002_.png&type=temp&subfolder=&rand=0.5646452673590926"
+            "url": "/api/view?filename=rgthree.compare._temp_hqklp_00002_.png&type=temp&subfolder=&rand=0.5804983660093449"
           }
         ]
       ]
@@ -14342,14 +14389,14 @@
         -662.6500658949196
       ],
       "size": [
-        186.7392578125,
+        431.38046875,
         64
       ],
       "flags": {
         "allow_interaction": true
       },
-      "order": 57,
-      "mode": 4,
+      "order": 54,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "                  ⬆️\\n This shows a preview\\n   that you can save",
@@ -14385,7 +14432,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 58,
+      "order": 55,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -14525,7 +14572,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 59,
+      "order": 56,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -14564,7 +14611,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 60,
+      "order": 57,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -14603,7 +14650,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 61,
+      "order": 58,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -14640,7 +14687,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 62,
+      "order": 59,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -14675,8 +14722,8 @@
         130
       ],
       "flags": {},
-      "order": 111,
-      "mode": 4,
+      "order": 107,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -14722,7 +14769,7 @@
       ],
       "flags": {},
       "order": 226,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -14769,8 +14816,8 @@
         78
       ],
       "flags": {},
-      "order": 63,
-      "mode": 4,
+      "order": 60,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -14814,7 +14861,7 @@
         632.653628712712
       ],
       "flags": {},
-      "order": 68,
+      "order": 65,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -14843,7 +14890,7 @@
         209.53459943580413
       ],
       "flags": {},
-      "order": 64,
+      "order": 61,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -14872,7 +14919,7 @@
         314.0000000000001
       ],
       "flags": {},
-      "order": 124,
+      "order": 119,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -14920,7 +14967,7 @@
       ],
       "flags": {},
       "order": 341,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -14950,7 +14997,7 @@
         }
       },
       "widgets_values": [
-        "masterpiece, best quality, photorealistic, highly detailed, professional photography, 8k uhd,"
+        "masterpiece, best quality, photorealistic, highly detailed, professional photography, 8k uhd, in the style of Street live. Main city at morning day light. Empty parking lot. Quite morning, no one in sight. She is dressed like a street girl. Punk vibes. long dark hair, Old, ratty shirt, white undershirt, baggy pants, sneakers. very skinny, large breasts, busty, large round eyes, messy and tangled hair, long waist chain, choker, extra studded belt, detailed hands"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -15014,7 +15061,7 @@
       ],
       "flags": {},
       "order": 342,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -15170,16 +15217,16 @@
         8,
         "euler",
         "simple",
-        0.57,
+        0.72,
         5,
         true,
         true,
-        0.5,
+        0.2,
         10,
         3,
         "center-1",
         0,
-        0.93,
+        0.94,
         0,
         0.7,
         "False",
@@ -15208,7 +15255,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 65,
+      "order": 62,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -15246,7 +15293,7 @@
       ],
       "flags": {},
       "order": 343,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -15410,7 +15457,7 @@
       ],
       "flags": {},
       "order": 344,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -15479,7 +15526,7 @@
         118
       ],
       "flags": {},
-      "order": 145,
+      "order": 144,
       "mode": 4,
       "inputs": [
         {
@@ -15549,8 +15596,8 @@
         146.125
       ],
       "flags": {},
-      "order": 147,
-      "mode": 4,
+      "order": 146,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -15775,7 +15822,7 @@
         58
       ],
       "flags": {},
-      "order": 84,
+      "order": 81,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -15820,7 +15867,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 143,
+      "order": 142,
       "mode": 0,
       "inputs": [
         {
@@ -15909,7 +15956,7 @@
       ],
       "flags": {},
       "order": 221,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -15937,7 +15984,7 @@
         }
       },
       "widgets_values": [
-        "questioning look"
+        "questioning look, sun-burned, untrusting, round blue eyes"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -15955,7 +16002,7 @@
       ],
       "flags": {},
       "order": 227,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "clip",
@@ -16003,7 +16050,7 @@
       ],
       "flags": {},
       "order": 346,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "model",
@@ -16145,7 +16192,7 @@
       ],
       "flags": {},
       "order": 347,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
@@ -16202,8 +16249,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 128,
-      "mode": 4,
+      "order": 123,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "                  ⬆️\\nRemember to \\nchoose the \\nimage number!",
@@ -16237,7 +16284,7 @@
         295.4830336576812
       ],
       "flags": {},
-      "order": 113,
+      "order": 109,
       "mode": 4,
       "inputs": [
         {
@@ -16375,8 +16422,8 @@
         235.32400000000007
       ],
       "flags": {},
-      "order": 114,
-      "mode": 4,
+      "order": 110,
+      "mode": 0,
       "inputs": [
         {
           "label": "BBOX",
@@ -16494,7 +16541,7 @@
       ],
       "flags": {},
       "order": 348,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -16528,7 +16575,7 @@
       ],
       "flags": {},
       "order": 349,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "images",
@@ -16553,8 +16600,8 @@
       "id": 2572,
       "type": "MaskPreview+",
       "pos": [
-        18030.69465337254,
-        -282.5772418859989
+        18029.410720283246,
+        -287.0710076985868
       ],
       "size": [
         210,
@@ -16562,7 +16609,7 @@
       ],
       "flags": {},
       "order": 350,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "mask",
@@ -16699,7 +16746,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 191,
+      "order": 190,
       "mode": 0,
       "inputs": [
         {
@@ -16859,7 +16906,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 102,
+      "order": 98,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -16896,7 +16943,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 174,
+      "order": 173,
       "mode": 0,
       "inputs": [
         {
@@ -17046,7 +17093,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 137,
+      "order": 136,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -17068,8 +17115,10 @@
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.6.2",
-          "input_ue_unconnectable": {}
-        }
+          "input_ue_unconnectable": {},
+          "output_not_broadcasting": {}
+        },
+        "ue_convert": false
       },
       "color": "#223",
       "bgcolor": "#335"
@@ -17088,7 +17137,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 157,
+      "order": 154,
       "mode": 0,
       "inputs": [
         {
@@ -17246,7 +17295,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 74,
+      "order": 71,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -17325,7 +17374,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 66,
+      "order": 63,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -17362,7 +17411,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 70,
+      "order": 67,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -17391,8 +17440,8 @@
         860.6036629765506
       ],
       "flags": {},
-      "order": 149,
-      "mode": 0,
+      "order": 148,
+      "mode": 4,
       "inputs": [
         {
           "name": "seed",
@@ -17432,8 +17481,8 @@
         }
       },
       "widgets_values": [
-        "",
-        "",
+        "Pony Danbooru-style tags, Desert, Profile, photojournalistic documentary, Deep Blue Eyes, detailed, tall and skinny, Dark Brown Hair, Messy Tousled Hair, Long Wavy Hair, Aero Nomad, Long Sleeve Tee, Ruff Pants, Aged, Ripped",
+        "bc02f9e7-d586-42bf-8a4d-015518d17167,10cb045e-8015-453c-8bca-c0dfb58973b9,46294261-06ee-45b5-8e83-89b61caafccc,1bae4b92-5feb-421c-84d9-337ca25e9587,9e59220e-4b18-4314-98f9-1db9781e5f5a,85d387d4-321c-4e7a-bebd-d966add07f5b,726b73cd-58d1-4d0d-9b56-e06683755650,5d1cc52e-3469-41b4-86f6-2be085c9a10a,89902d09-b4b2-4e0d-8e8a-9f7b650ec006,445f1db5-00f2-42e5-ba33-8724e3771caf,496b68df-1580-4506-8dfe-30059b085153,0c1db987-8ad6-4e39-986b-ed9117f47e46,fb8c033f-cc4c-4729-9136-b15243310a23,32fb62ff-9e4a-4d47-8879-02a4126d42ad,00c0a5ed-da9a-41c0-a48c-ec2cef843130",
         1712678544,
         "fixed",
         "",
@@ -17445,16 +17494,16 @@
       "id": 2631,
       "type": "Image Comparer (rgthree)",
       "pos": [
-        6387.700879587161,
-        -867.3977046492627
+        5277.4791909229325,
+        -882.491352984577
       ],
       "size": [
-        236.23459154275815,
-        250.21992867731137
+        1081.4788983203603,
+        1070.3081548960567
       ],
       "flags": {},
       "order": 352,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -17483,19 +17532,14 @@
       "widgets_values": [
         [
           {
-            "name": "A1",
+            "name": "A",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_dzrez_00004_.png&type=temp&subfolder=&rand=0.42849220790562614"
+            "url": "/api/view?filename=rgthree.compare._temp_btxaj_00137_.png&type=temp&subfolder=&rand=0.44134148733079503"
           },
           {
-            "name": "A2",
-            "selected": false,
-            "url": "/api/view?filename=rgthree.compare._temp_dzrez_00005_.png&type=temp&subfolder=&rand=0.8986309359225544"
-          },
-          {
-            "name": "B1",
+            "name": "B",
             "selected": true,
-            "url": "/api/view?filename=rgthree.compare._temp_dzrez_00006_.png&type=temp&subfolder=&rand=0.3786167905459137"
+            "url": "/api/view?filename=rgthree.compare._temp_btxaj_00138_.png&type=temp&subfolder=&rand=0.9220174331776776"
           }
         ]
       ]
@@ -17587,7 +17631,7 @@
         202
       ],
       "flags": {},
-      "order": 116,
+      "order": 112,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -17659,16 +17703,16 @@
       "id": 2660,
       "type": "easy showAnything",
       "pos": [
-        -1289.3730468537983,
-        60.413631644243274
+        -1287.5548650356159,
+        60.413631644242884
       ],
       "size": [
-        756.2622809917355,
-        183.2917851239668
+        754.4440991735537,
+        184.20087603305768
       ],
       "flags": {},
-      "order": 168,
-      "mode": 0,
+      "order": 165,
+      "mode": 4,
       "inputs": [
         {
           "name": "anything",
@@ -17696,7 +17740,7 @@
         }
       },
       "widgets_values": [
-        ""
+        "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,, desert landscape, sandy desert, arid dunes, rocky desert, vast empty desert, Profile shot, from head to the lower waist area., Visual style is photojournalistic documentary realism inspired by National Geographic and extreme weather photography., deep blue eyes, detailed eyes, long eyelashes, Highly detailed face, The subject is very tall and skinny. Long legs, skinny, Very Thin,, dark brown hair, detailed hair strands, messy hair, tousled hair, detailed hair strands, long hair, wavy hair, detailed hair strands, Aero Nomad fashion features wind-resistant fabrics, modular layers, and aerodynamic silhouettes designed for high-altitude or airborne environments., The subject is wearing a long sleeve tee with a straight cut and crew neckline. The sleeves extend fully to the wrists., Old, oversized work pants, worn and patched, belts, water canteen,, worn clothing, faded fabric, threadbare clothes, patched clothing, old clothes, weathered fabric, The garment has been torn or distressed intentionally, revealing skin or undergarments underneath. Areas of the clothes are ripped."
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -17716,7 +17760,7 @@
         "collapsed": true
       },
       "order": 355,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "clip",
@@ -17771,7 +17815,7 @@
       ],
       "flags": {},
       "order": 356,
-      "mode": 0,
+      "mode": 4,
       "inputs": [
         {
           "name": "conditioning_1",
@@ -17817,8 +17861,8 @@
         184.00630578512408
       ],
       "flags": {},
-      "order": 170,
-      "mode": 0,
+      "order": 167,
+      "mode": 4,
       "inputs": [
         {
           "name": "anything",
@@ -17846,7 +17890,7 @@
         }
       },
       "widgets_values": [
-        ""
+        "score_1, score_2, score_3, score_4, score_5, blurry, low quality, deformed, bad anatomy, extra limbs, watermark, text, signature, cartoon, source_pony"
       ],
       "color": "#322",
       "bgcolor": "#533"
@@ -18068,7 +18112,7 @@
       ],
       "flags": {},
       "order": 359,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "dir": 3,
@@ -18120,7 +18164,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 93,
+      "order": 89,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -18156,7 +18200,7 @@
         30
       ],
       "flags": {},
-      "order": 144,
+      "order": 143,
       "mode": 4,
       "inputs": [
         {
@@ -18208,8 +18252,8 @@
         187.52726500670565
       ],
       "flags": {},
-      "order": 135,
-      "mode": 0,
+      "order": 132,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -18233,7 +18277,7 @@
         }
       },
       "widgets_values": [
-        "1girl\n\n"
+        "Mad Max apocalyptic style, dusty, "
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -18250,8 +18294,8 @@
         186.27388417813427
       ],
       "flags": {},
-      "order": 88,
-      "mode": 0,
+      "order": 131,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -18294,8 +18338,8 @@
       "flags": {
         "collapsed": true
       },
-      "order": 169,
-      "mode": 0,
+      "order": 166,
+      "mode": 4,
       "inputs": [
         {
           "name": "text_a",
@@ -18360,8 +18404,8 @@
       "flags": {
         "collapsed": true
       },
-      "order": 171,
-      "mode": 0,
+      "order": 168,
+      "mode": 4,
       "inputs": [
         {
           "name": "text_a",
@@ -18424,8 +18468,8 @@
         373.03533712733076
       ],
       "flags": {},
-      "order": 187,
-      "mode": 0,
+      "order": 186,
+      "mode": 4,
       "inputs": [
         {
           "dir": 3,
@@ -18447,7 +18491,7 @@
         }
       },
       "widgets_values": [
-        "1girl"
+        "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,, desert landscape, sandy desert, arid dunes, rocky desert, vast empty desert, Profile shot, from head to the lower waist area., Visual style is photojournalistic documentary realism inspired by National Geographic and extreme weather photography., deep blue eyes, detailed eyes, long eyelashes, Highly detailed face, The subject is very tall and skinny. Long legs, skinny, Very Thin,, dark brown hair, detailed hair strands, messy hair, tousled hair, detailed hair strands, long hair, wavy hair, detailed hair strands, Aero Nomad fashion features wind-resistant fabrics, modular layers, and aerodynamic silhouettes designed for high-altitude or airborne environments., The subject is wearing a long sleeve tee with a straight cut and crew neckline. The sleeves extend fully to the wrists., Old, oversized work pants, worn and patched, belts, water canteen,, worn clothing, faded fabric, threadbare clothes, patched clothing, old clothes, weathered fabric, The garment has been torn or distressed intentionally, revealing skin or undergarments underneath. Areas of the clothes are ripped., Mad Max apocalyptic style, dusty,"
       ],
       "color": "#2a363b",
       "bgcolor": "#3f5159"
@@ -18464,8 +18508,8 @@
         180.49898126012147
       ],
       "flags": {},
-      "order": 188,
-      "mode": 0,
+      "order": 187,
+      "mode": 4,
       "inputs": [
         {
           "dir": 3,
@@ -18487,7 +18531,7 @@
         }
       },
       "widgets_values": [
-        ""
+        "score_1, score_2, score_3, score_4, score_5, blurry, low quality, deformed, bad anatomy, extra limbs, watermark, text, signature, cartoon, source_pony"
       ],
       "color": "#332922",
       "bgcolor": "#593930"
@@ -18738,8 +18782,8 @@
         58
       ],
       "flags": {},
-      "order": 85,
-      "mode": 0,
+      "order": 82,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
@@ -19621,7 +19665,7 @@
         }
       },
       "widgets_values": [
-        "blue eyes"
+        "highly detailed"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -19901,7 +19945,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 122,
+      "order": 117,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -20085,7 +20129,7 @@
         30
       ],
       "flags": {},
-      "order": 175,
+      "order": 174,
       "mode": 0,
       "inputs": [
         {
@@ -20136,7 +20180,7 @@
         30
       ],
       "flags": {},
-      "order": 177,
+      "order": 176,
       "mode": 0,
       "inputs": [
         {
@@ -20187,7 +20231,7 @@
         30
       ],
       "flags": {},
-      "order": 194,
+      "order": 193,
       "mode": 4,
       "inputs": [
         {
@@ -20238,7 +20282,7 @@
         30
       ],
       "flags": {},
-      "order": 192,
+      "order": 191,
       "mode": 4,
       "inputs": [
         {
@@ -20289,7 +20333,7 @@
         30
       ],
       "flags": {},
-      "order": 176,
+      "order": 175,
       "mode": 0,
       "inputs": [
         {
@@ -20340,7 +20384,7 @@
         30
       ],
       "flags": {},
-      "order": 193,
+      "order": 192,
       "mode": 4,
       "inputs": [
         {
@@ -20393,7 +20437,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 89,
+      "order": 85,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -20430,8 +20474,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 90,
-      "mode": 4,
+      "order": 86,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n|\\n",
@@ -20467,7 +20511,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 92,
+      "order": 88,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -20576,7 +20620,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 95,
+      "order": 91,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -20613,7 +20657,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 126,
+      "order": 121,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -20650,7 +20694,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 97,
+      "order": 93,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -20687,7 +20731,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 118,
+      "order": 114,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -20724,7 +20768,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 99,
+      "order": 95,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -20949,8 +20993,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 105,
-      "mode": 0,
+      "order": 101,
+      "mode": 4,
       "inputs": [],
       "outputs": [],
       "title": "Below is a combination of the Prompt Library auto prompt\\nand the manual prompt for easy copying\\n                             ⬇️",
@@ -20984,7 +21028,7 @@
         89.64876033057828
       ],
       "flags": {},
-      "order": 112,
+      "order": 108,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -21015,7 +21059,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 131,
+      "order": 126,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -21042,8 +21086,8 @@
       "id": 3233,
       "type": "PencilSketch",
       "pos": [
-        12842.638792515067,
-        1628.9274504687125
+        13725.34597662894,
+        1826.5889280378424
       ],
       "size": [
         327.2845973573676,
@@ -21051,12 +21095,12 @@
       ],
       "flags": {},
       "order": 387,
-      "mode": 4,
+      "mode": 0,
       "inputs": [
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 4813
+          "link": 4843
         }
       ],
       "outputs": [
@@ -21064,7 +21108,9 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            4814
+            4844,
+            4845,
+            4846
           ]
         }
       ],
@@ -21079,7 +21125,7 @@
         }
       },
       "widgets_values": [
-        4,
+        2,
         1
       ],
       "color": "#2a363b",
@@ -21089,8 +21135,8 @@
       "id": 3234,
       "type": "FilmGrain",
       "pos": [
-        13213.241497313205,
-        1627.1461421376155
+        13331.637327277525,
+        1852.8528090895484
       ],
       "size": [
         322.37075841441947,
@@ -21103,7 +21149,7 @@
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 4814
+          "link": 4842
         }
       ],
       "outputs": [
@@ -21111,7 +21157,7 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            4815
+            4843
           ]
         }
       ],
@@ -21136,8 +21182,8 @@
       "id": 3235,
       "type": "Quantize",
       "pos": [
-        12840.860127380254,
-        1841.4474370869564
+        13331.947979193259,
+        1644.8507006812795
       ],
       "size": [
         321.1422986786838,
@@ -21150,7 +21196,7 @@
         {
           "name": "image",
           "type": "IMAGE",
-          "link": 4815
+          "link": 4841
         }
       ],
       "outputs": [
@@ -21174,7 +21220,7 @@
         }
       },
       "widgets_values": [
-        8,
+        10,
         "none"
       ]
     },
@@ -21182,8 +21228,8 @@
       "id": 3236,
       "type": "Solarize",
       "pos": [
-        13219.610760687125,
-        1865.761470349817
+        13722.652959559326,
+        1637.0535984323965
       ],
       "size": [
         321.1422986786838,
@@ -21205,7 +21251,7 @@
           "type": "IMAGE",
           "slot_index": 0,
           "links": [
-            4817
+            4842
           ]
         }
       ],
@@ -21232,11 +21278,11 @@
       ],
       "size": [
         326.67006624477506,
-        130
+        154
       ],
       "flags": {},
-      "order": 121,
-      "mode": 4,
+      "order": 137,
+      "mode": 0,
       "inputs": [],
       "outputs": [
         {
@@ -21309,7 +21355,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 136,
+      "order": 129,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -21346,8 +21392,8 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 127,
-      "mode": 4,
+      "order": 122,
+      "mode": 0,
       "inputs": [],
       "outputs": [],
       "title": "                  ⬆️\\n This shows a preview\\n   that you can save",
@@ -21383,7 +21429,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 132,
+      "order": 127,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -21420,7 +21466,7 @@
       "flags": {
         "allow_interaction": true
       },
-      "order": 133,
+      "order": 128,
       "mode": 4,
       "inputs": [],
       "outputs": [],
@@ -21451,8 +21497,8 @@
         688.4252230159881
       ],
       "size": [
-        140,
-        26
+        210,
+        34
       ],
       "flags": {
         "collapsed": true
@@ -21477,14 +21523,69 @@
       "properties": {
         "cnr_id": "comfyui-easy-use",
         "ver": "1.3.4",
+        "Node name for S&R": "easy showAnything",
         "ue_properties": {
           "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
-        },
-        "Node name for S&R": "easy showAnything"
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        }
       },
       "widgets_values": [
-        "tensor([[[[0.1490, 0.1725, 0.1490],\n          [0.1569, 0.1804, 0.1608],\n          [0.1529, 0.1765, 0.1490],\n          ...,\n          [0.1569, 0.1843, 0.1686],\n          [0.1608, 0.1843, 0.1647],\n          [0.1451, 0.1725, 0.1451]],\n\n         [[0.1569, 0.1804, 0.1569],\n          [0.1529, 0.1765, 0.1608],\n          [0.1569, 0.1765, 0.1569],\n          ...,\n          [0.1569, 0.1882, 0.1686],\n          [0.1529, 0.1843, 0.1686],\n          [0.1490, 0.1765, 0.1608]],\n\n         [[0.1529, 0.1725, 0.1529],\n          [0.1569, 0.1804, 0.1608],\n          [0.1529, 0.1765, 0.1569],\n          ...,\n          [0.1529, 0.1843, 0.1686],\n          [0.1529, 0.1843, 0.1686],\n          [0.1529, 0.1765, 0.1608]],\n\n         ...,\n\n         [[0.6118, 0.4824, 0.3725],\n          [0.6118, 0.4902, 0.3765],\n          [0.6118, 0.4863, 0.3804],\n          ...,\n          [0.6627, 0.5412, 0.4745],\n          [0.6627, 0.5451, 0.4784],\n          [0.6627, 0.5451, 0.4745]],\n\n         [[0.6196, 0.4863, 0.3725],\n          [0.6157, 0.4902, 0.3765],\n          [0.6157, 0.4902, 0.3804],\n          ...,\n          [0.6627, 0.5412, 0.4784],\n          [0.6667, 0.5490, 0.4824],\n          [0.6627, 0.5451, 0.4706]],\n\n         [[0.6157, 0.4902, 0.3765],\n          [0.6157, 0.4902, 0.3765],\n          [0.6157, 0.4902, 0.3843],\n          ...,\n          [0.6627, 0.5412, 0.4745],\n          [0.6667, 0.5451, 0.4784],\n          [0.6627, 0.5451, 0.4745]]]])"
+        "tensor([[[[1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          ...,\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000]],\n\n         [[1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          ...,\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000]],\n\n         [[1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          ...,\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000]],\n\n         ...,\n\n         [[1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          ...,\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000]],\n\n         [[1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          ...,\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000]],\n\n         [[1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          ...,\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000],\n          [1.0000, 1.0000, 1.0000]]]])"
+      ]
+    },
+    {
+      "id": 3254,
+      "type": "Image Rembg (Remove Background)",
+      "pos": [
+        12843.433946586965,
+        1627.8863430189524
+      ],
+      "size": [
+        375.505859375,
+        250
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 393,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 4838
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            4840
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "was-ns",
+        "ver": "3.0.1",
+        "Node name for S&R": "Image Rembg (Remove Background)",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.6.2"
+        }
+      },
+      "widgets_values": [
+        false,
+        "silueta",
+        false,
+        false,
+        true,
+        240,
+        10,
+        10,
+        "white"
       ]
     }
   ],
@@ -22266,14 +22367,6 @@
       "IMAGE"
     ],
     [
-      3435,
-      2457,
-      0,
-      2341,
-      0,
-      "IMAGE"
-    ],
-    [
       3436,
       2527,
       0,
@@ -22632,30 +22725,6 @@
       2410,
       0,
       "*"
-    ],
-    [
-      3503,
-      2504,
-      0,
-      2411,
-      0,
-      "IMAGE"
-    ],
-    [
-      3504,
-      2504,
-      0,
-      2413,
-      0,
-      "IMAGE"
-    ],
-    [
-      3505,
-      2504,
-      0,
-      2415,
-      0,
-      "IMAGE"
     ],
     [
       3506,
@@ -24778,42 +24847,10 @@
       "IMAGE"
     ],
     [
-      4813,
-      2341,
-      0,
-      3233,
-      0,
-      "IMAGE"
-    ],
-    [
-      4814,
-      3233,
-      0,
-      3234,
-      0,
-      "IMAGE"
-    ],
-    [
-      4815,
-      3234,
-      0,
-      3235,
-      0,
-      "IMAGE"
-    ],
-    [
       4816,
       3235,
       0,
       3236,
-      0,
-      "IMAGE"
-    ],
-    [
-      4817,
-      3236,
-      0,
-      2504,
       0,
       "IMAGE"
     ],
@@ -24840,6 +24877,78 @@
       3246,
       0,
       "*"
+    ],
+    [
+      4822,
+      2341,
+      0,
+      2504,
+      0,
+      "IMAGE"
+    ],
+    [
+      4838,
+      2457,
+      0,
+      3254,
+      0,
+      "IMAGE"
+    ],
+    [
+      4840,
+      3254,
+      0,
+      2341,
+      0,
+      "IMAGE"
+    ],
+    [
+      4841,
+      2504,
+      0,
+      3235,
+      0,
+      "IMAGE"
+    ],
+    [
+      4842,
+      3236,
+      0,
+      3234,
+      0,
+      "IMAGE"
+    ],
+    [
+      4843,
+      3234,
+      0,
+      3233,
+      0,
+      "IMAGE"
+    ],
+    [
+      4844,
+      3233,
+      0,
+      2415,
+      0,
+      "IMAGE"
+    ],
+    [
+      4845,
+      3233,
+      0,
+      2413,
+      0,
+      "IMAGE"
+    ],
+    [
+      4846,
+      3233,
+      0,
+      2411,
+      0,
+      "IMAGE"
     ]
   ],
   "groups": [
@@ -25209,8 +25318,8 @@
       "id": 160,
       "title": "PencilSketch",
       "bounding": [
-        12822.342382491928,
-        1549.3696851168993,
+        13705.0495666058,
+        1747.031162686029,
         361.61413632690346,
         181.34792819827976
       ],
@@ -25222,8 +25331,8 @@
       "id": 161,
       "title": "FilmGrain",
       "bounding": [
-        13196.6540639709,
-        1552.0722965355217,
+        13315.04989393522,
+        1777.7789634874543,
         370.21335447706224,
         217.58749040251269
       ],
@@ -25235,8 +25344,8 @@
       "id": 162,
       "title": "Quantize",
       "bounding": [
-        12818.8536731492,
-        1748.6306837676714,
+        13309.941524962205,
+        1552.0339473619933,
         361.6141363269053,
         200.03186858925346
       ],
@@ -25248,10 +25357,23 @@
       "id": 163,
       "title": "Solarize",
       "bounding": [
-        13196.45413793121,
-        1782.7349780540765,
+        13699.496336803411,
+        1554.027106136656,
         369.9207761628404,
         165.8823492637398
+      ],
+      "color": "#b58b2a",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 164,
+      "title": "Remove Background",
+      "bounding": [
+        12820.387712052336,
+        1545.540948479135,
+        461.8510589500129,
+        374.55626949842167
       ],
       "color": "#b58b2a",
       "font_size": 24,
@@ -25264,9 +25386,9 @@
         "id": "3801eb61-5bb9-46cf-bac4-9fcd23dc3e35",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -25348,7 +25470,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "image",
@@ -25407,7 +25529,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "value",
@@ -25457,7 +25579,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "a",
@@ -25549,9 +25671,9 @@
         "id": "5ba60664-5cf3-42b5-8597-17ebd807b490",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -25834,9 +25956,9 @@
         "id": "bb270e6e-0eaf-4ae1-b3b9-e4220c2418f1",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -26119,9 +26241,9 @@
         "id": "dd9dc867-b216-4106-b655-acca7534c1ba",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -27278,9 +27400,9 @@
         "id": "941b0d38-31d3-40e9-a5e9-f15c62ed5a8e",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -27454,7 +27576,7 @@
               }
             },
             "widgets_values": [
-              2,
+              1,
               "fixed"
             ]
           },
@@ -27563,9 +27685,9 @@
         "id": "69f0eaa0-7bf8-4c54-b293-81a61229eb75",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -28239,60 +28361,6 @@
             },
             "widgets_values": [
               "juggernautXL_versionXInpaint.safetensors"
-            ],
-            "color": "#232",
-            "bgcolor": "#353"
-          },
-          {
-            "id": 1310,
-            "type": "VAELoader",
-            "pos": [
-              -4713.78875103361,
-              3713.3123227570513
-            ],
-            "size": [
-              303.8207092285156,
-              61.22101974487305
-            ],
-            "flags": {},
-            "order": 6,
-            "mode": 4,
-            "inputs": [
-              {
-                "localized_name": "vae_name",
-                "name": "vae_name",
-                "type": "COMBO",
-                "widget": {
-                  "name": "vae_name"
-                },
-                "link": 1910
-              }
-            ],
-            "outputs": [
-              {
-                "localized_name": "VAE",
-                "name": "VAE",
-                "type": "VAE",
-                "links": [
-                  1884,
-                  4031
-                ]
-              }
-            ],
-            "properties": {
-              "cnr_id": "comfy-core",
-              "ver": "0.11.1",
-              "Node name for S&R": "VAELoader",
-              "ue_properties": {
-                "widget_ue_connectable": {
-                  "vae_name": true
-                },
-                "version": "7.6.2",
-                "input_ue_unconnectable": {}
-              }
-            },
-            "widgets_values": [
-              "SDXL\\sdxl_vae.safetensors"
             ],
             "color": "#232",
             "bgcolor": "#353"
@@ -28979,6 +29047,60 @@
               "karras",
               0.57
             ]
+          },
+          {
+            "id": 1310,
+            "type": "VAELoader",
+            "pos": [
+              -4860.601633689897,
+              3619.228010632249
+            ],
+            "size": [
+              303.8207092285156,
+              61.22101974487305
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 4,
+            "inputs": [
+              {
+                "localized_name": "vae_name",
+                "name": "vae_name",
+                "type": "COMBO",
+                "widget": {
+                  "name": "vae_name"
+                },
+                "link": 1910
+              }
+            ],
+            "outputs": [
+              {
+                "localized_name": "VAE",
+                "name": "VAE",
+                "type": "VAE",
+                "links": [
+                  1884,
+                  4031
+                ]
+              }
+            ],
+            "properties": {
+              "cnr_id": "comfy-core",
+              "ver": "0.11.1",
+              "Node name for S&R": "VAELoader",
+              "ue_properties": {
+                "widget_ue_connectable": {
+                  "vae_name": true
+                },
+                "version": "7.6.2",
+                "input_ue_unconnectable": {}
+              }
+            },
+            "widgets_values": [
+              "SDXL\\sdxl_vae.safetensors"
+            ],
+            "color": "#232",
+            "bgcolor": "#353"
           }
         ],
         "groups": [],
@@ -29434,9 +29556,9 @@
         "id": "fc9fd299-55be-4f18-949e-99058d044ec9",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -29518,7 +29640,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "image",
@@ -29577,7 +29699,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "value",
@@ -29627,7 +29749,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "a",
@@ -29719,9 +29841,9 @@
         "id": "01575260-e2fb-4f38-abc3-0f3e152f3f27",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -30054,7 +30176,7 @@
               "collapsed": false
             },
             "order": 5,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "image",
@@ -30152,7 +30274,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "image",
@@ -30204,7 +30326,7 @@
             ],
             "flags": {},
             "order": 3,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "image",
@@ -30245,7 +30367,7 @@
               }
             },
             "widgets_values": [
-              4
+              1
             ]
           },
           {
@@ -30261,7 +30383,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "ckpt_name",
@@ -30333,7 +30455,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "pixels",
@@ -30383,7 +30505,7 @@
             ],
             "flags": {},
             "order": 6,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "clip",
@@ -30438,7 +30560,7 @@
             ],
             "flags": {},
             "order": 7,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "label": "LATENT",
@@ -30505,7 +30627,7 @@
             ],
             "flags": {},
             "order": 4,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "model",
@@ -30618,11 +30740,11 @@
             "widgets_values": [
               739068678674447,
               "fixed",
-              40,
-              2.3,
+              25,
+              3.3,
               "dpmpp_2m_sde",
               "karras",
-              0.84
+              0.6
             ]
           }
         ],
@@ -30887,9 +31009,9 @@
         "id": "21858c1d-22cb-4a7d-a37e-475d28b83455",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -30900,8 +31022,8 @@
           "bounding": [
             -4662.376993758675,
             1489.3762044967661,
-            139.6796875,
-            320
+            139.43333435058594,
+            300
           ]
         },
         "outputNode": {
@@ -30909,7 +31031,7 @@
           "bounding": [
             -3163.571624282609,
             1524.8855502757233,
-            123.185546875,
+            123.43333435058594,
             140
           ]
         },
@@ -30923,7 +31045,7 @@
             ],
             "localized_name": "model",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1509.3762044967661
             ]
           },
@@ -30936,7 +31058,7 @@
             ],
             "localized_name": "positive",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1529.3762044967661
             ]
           },
@@ -30949,7 +31071,7 @@
             ],
             "localized_name": "negative",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1549.3762044967661
             ]
           },
@@ -30962,7 +31084,7 @@
             ],
             "localized_name": "seed",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1569.3762044967661
             ]
           },
@@ -30973,8 +31095,9 @@
             "linkIds": [
               1849
             ],
+            "label": "ckpt_name",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1589.3762044967661
             ]
           },
@@ -30985,8 +31108,9 @@
             "linkIds": [
               1852
             ],
+            "label": "steps",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1609.3762044967661
             ]
           },
@@ -30997,8 +31121,9 @@
             "linkIds": [
               1853
             ],
+            "label": "cfg",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1629.3762044967661
             ]
           },
@@ -31009,8 +31134,9 @@
             "linkIds": [
               1854
             ],
+            "label": "sampler_name",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1649.3762044967661
             ]
           },
@@ -31021,21 +31147,10 @@
             "linkIds": [
               1855
             ],
+            "label": "scheduler",
             "pos": [
-              -4542.697306258675,
+              -4542.943659408089,
               1669.3762044967661
-            ]
-          },
-          {
-            "id": "93ef1527-a9d8-456e-a1ca-80d0dadad9ec",
-            "name": "denoise",
-            "type": "FLOAT",
-            "linkIds": [
-              1856
-            ],
-            "pos": [
-              -4542.697306258675,
-              1689.3762044967661
             ]
           },
           {
@@ -31045,9 +31160,10 @@
             "linkIds": [
               3767
             ],
+            "label": "resolution",
             "pos": [
-              -4542.697306258675,
-              1709.3762044967661
+              -4542.943659408089,
+              1689.3762044967661
             ]
           },
           {
@@ -31057,9 +31173,10 @@
             "linkIds": [
               3768
             ],
+            "label": "batch_size",
             "pos": [
-              -4542.697306258675,
-              1729.3762044967661
+              -4542.943659408089,
+              1709.3762044967661
             ]
           },
           {
@@ -31069,9 +31186,10 @@
             "linkIds": [
               3769
             ],
+            "label": "stop_at_clip_layer",
             "pos": [
-              -4542.697306258675,
-              1749.3762044967661
+              -4542.943659408089,
+              1729.3762044967661
             ]
           },
           {
@@ -31083,8 +31201,8 @@
             ],
             "label": "Low Vram",
             "pos": [
-              -4542.697306258675,
-              1769.3762044967661
+              -4542.943659408089,
+              1749.3762044967661
             ]
           }
         ],
@@ -31172,7 +31290,7 @@
             ],
             "flags": {},
             "order": 4,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "resolution",
@@ -31227,7 +31345,7 @@
             },
             "widgets_values": [
               "1024x1024 (1.0)",
-              2,
+              1,
               0,
               0
             ]
@@ -31245,7 +31363,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "ckpt_name",
@@ -31299,7 +31417,7 @@
               }
             },
             "widgets_values": [
-              "juggernautXL_ragnarokBy(SDXL 1.0).safetensors"
+              "cyberrealisticPony_v141.safetensors"
             ]
           },
           {
@@ -31315,7 +31433,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "model",
@@ -31385,15 +31503,6 @@
                   "name": "scheduler"
                 },
                 "link": 1855
-              },
-              {
-                "localized_name": "denoise",
-                "name": "denoise",
-                "type": "FLOAT",
-                "widget": {
-                  "name": "denoise"
-                },
-                "link": 1856
               }
             ],
             "outputs": [
@@ -31441,7 +31550,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "clip",
@@ -31496,7 +31605,7 @@
             ],
             "flags": {},
             "order": 3,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "label": "LATENT",
@@ -31650,14 +31759,6 @@
             "type": "COMBO"
           },
           {
-            "id": 1856,
-            "origin_id": -10,
-            "origin_slot": 9,
-            "target_id": 1128,
-            "target_slot": 9,
-            "type": "FLOAT"
-          },
-          {
             "id": 1925,
             "origin_id": 1130,
             "origin_slot": 1,
@@ -31676,7 +31777,7 @@
           {
             "id": 3767,
             "origin_id": -10,
-            "origin_slot": 10,
+            "origin_slot": 9,
             "target_id": 2629,
             "target_slot": 0,
             "type": "COMBO"
@@ -31684,7 +31785,7 @@
           {
             "id": 3768,
             "origin_id": -10,
-            "origin_slot": 11,
+            "origin_slot": 10,
             "target_id": 2629,
             "target_slot": 1,
             "type": "INT"
@@ -31692,7 +31793,7 @@
           {
             "id": 3769,
             "origin_id": -10,
-            "origin_slot": 12,
+            "origin_slot": 11,
             "target_id": 1164,
             "target_slot": 1,
             "type": "INT"
@@ -31732,7 +31833,7 @@
           {
             "id": 3954,
             "origin_id": -10,
-            "origin_slot": 13,
+            "origin_slot": 12,
             "target_id": 2628,
             "target_slot": 2,
             "type": "BOOLEAN"
@@ -31756,9 +31857,9 @@
         "id": "719dc466-00ec-4493-b6a5-d1f383e54b8f",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -33071,9 +33172,9 @@
         "id": "6b90152d-8a76-4bc5-ae0f-226599ad628e",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -33626,7 +33727,7 @@
             },
             "widgets_values": [
               "",
-              "dense_region_caption",
+              "more_detailed_caption",
               true,
               false,
               1024,
@@ -33808,7 +33909,7 @@
             },
             "widgets_values": [
               "1024x1024 (1.0)",
-              4,
+              1,
               0,
               0
             ]
@@ -34676,9 +34777,9 @@
         "id": "9a053b79-29b0-4a82-a7b3-6b6dabacbaa2",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -34949,9 +35050,9 @@
         "id": "34c4fbac-2497-4ffe-ba2b-97bf3b0d1da6",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -36311,9 +36412,9 @@
         "id": "22f5d06d-4307-46c2-9e8d-15a32bb1c137",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -36569,7 +36670,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "pixels",
@@ -36622,7 +36723,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "image",
@@ -36663,7 +36764,7 @@
               }
             },
             "widgets_values": [
-              2
+              1
             ],
             "color": "#432",
             "bgcolor": "#653",
@@ -36682,7 +36783,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "model",
@@ -36795,10 +36896,10 @@
               892815625668657,
               "fixed",
               22,
-              4.4,
-              "dpmpp_3m_sde",
+              3.6,
+              "dpmpp_2m_sde",
               "karras",
-              0.84
+              0.54
             ],
             "color": "#432",
             "bgcolor": "#653",
@@ -36817,7 +36918,7 @@
             ],
             "flags": {},
             "order": 3,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "ckpt_name",
@@ -36883,7 +36984,7 @@
             ],
             "flags": {},
             "order": 4,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "clip",
@@ -36938,7 +37039,7 @@
             ],
             "flags": {},
             "order": 5,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "label": "LATENT",
@@ -37190,9 +37291,9 @@
         "id": "7e68d453-53e8-4ca3-89e6-403b4bb6ba55",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -37274,7 +37375,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "image",
@@ -37333,7 +37434,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "value",
@@ -37383,7 +37484,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "a",
@@ -37475,9 +37576,9 @@
         "id": "adafb667-5295-4cf8-a04d-e67853efa2f0",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -38083,9 +38184,9 @@
         "id": "934acd49-4a1c-48cc-b215-2d57f45344d2",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -38254,7 +38355,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "model_name",
@@ -38311,7 +38412,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "model_name",
@@ -38368,7 +38469,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "model_name",
@@ -38420,7 +38521,7 @@
             ],
             "flags": {},
             "order": 3,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "ckpt_name",
@@ -38566,9 +38667,9 @@
         "id": "88675f04-84a8-413d-9897-0db22d335cc1",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -38667,7 +38768,7 @@
             ],
             "flags": {},
             "order": 5,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "input",
@@ -38745,7 +38846,7 @@
             ],
             "flags": {},
             "order": 6,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "input",
@@ -38817,7 +38918,7 @@
             ],
             "flags": {},
             "order": 4,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "input1",
@@ -38920,7 +39021,7 @@
               "collapsed": false
             },
             "order": 2,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "samples",
@@ -38980,7 +39081,7 @@
               "collapsed": false
             },
             "order": 3,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "samples",
@@ -39037,7 +39138,7 @@
               "collapsed": true
             },
             "order": 0,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "input",
@@ -39083,7 +39184,7 @@
               "collapsed": false
             },
             "order": 8,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "value",
@@ -39136,7 +39237,7 @@
             ],
             "flags": {},
             "order": 7,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "any_input",
@@ -39192,14 +39293,14 @@
                 "links": null
               },
               {
-                "label": "9,303,464,960   freemem_before",
+                "label": "9,771,785,216   freemem_before",
                 "localized_name": "freemem_before",
                 "name": "freemem_before",
                 "type": "INT",
                 "links": null
               },
               {
-                "label": "16,413,883,392      freemem_after",
+                "label": "16,536,173,568      freemem_after",
                 "localized_name": "freemem_after",
                 "name": "freemem_after",
                 "type": "INT",
@@ -39235,7 +39336,7 @@
             ],
             "flags": {},
             "order": 9,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "value",
@@ -39287,7 +39388,7 @@
               "collapsed": false
             },
             "order": 1,
-            "mode": 0,
+            "mode": 4,
             "inputs": [
               {
                 "localized_name": "a",
@@ -39483,9 +39584,9 @@
         "id": "1a8cfc40-3d27-4bd4-8356-d4fb92b2aa8c",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -40374,9 +40475,9 @@
         "id": "92b3ba6c-8858-4325-b43c-1e83801264f7",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -41510,9 +41611,9 @@
         "id": "4b9e97d2-4c0d-474f-8bda-d71aa566e508",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -41611,7 +41712,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input",
@@ -41689,7 +41790,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input",
@@ -41761,7 +41862,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "any_input",
@@ -41807,14 +41908,14 @@
                 "links": null
               },
               {
-                "label": "9,566,564,352   freemem_before",
+                "label": "9,143,759,872   freemem_before",
                 "localized_name": "freemem_before",
                 "name": "freemem_before",
                 "type": "INT",
                 "links": null
               },
               {
-                "label": "15,024,883,712      freemem_after",
+                "label": "16,130,993,664      freemem_after",
                 "localized_name": "freemem_after",
                 "name": "freemem_after",
                 "type": "INT",
@@ -41850,7 +41951,7 @@
             ],
             "flags": {},
             "order": 3,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input1",
@@ -41953,7 +42054,7 @@
               "collapsed": false
             },
             "order": 8,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "samples",
@@ -42013,7 +42114,7 @@
               "collapsed": false
             },
             "order": 9,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "samples",
@@ -42068,7 +42169,7 @@
             ],
             "flags": {},
             "order": 6,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "value",
@@ -42117,7 +42218,7 @@
             ],
             "flags": {},
             "order": 5,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input",
@@ -42161,7 +42262,7 @@
             ],
             "flags": {},
             "order": 7,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "a",
@@ -42212,7 +42313,7 @@
             ],
             "flags": {},
             "order": 4,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "value",
@@ -42401,9 +42502,9 @@
         "id": "6c0390d8-cd96-4ca1-9c3d-9cb7929e5d49",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -42502,7 +42603,7 @@
             ],
             "flags": {},
             "order": 0,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input",
@@ -42580,7 +42681,7 @@
             ],
             "flags": {},
             "order": 1,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input",
@@ -42652,7 +42753,7 @@
             ],
             "flags": {},
             "order": 2,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "any_input",
@@ -42698,14 +42799,14 @@
                 "links": null
               },
               {
-                "label": "8,589,246,976   freemem_before",
+                "label": "9,157,163,008   freemem_before",
                 "localized_name": "freemem_before",
                 "name": "freemem_before",
                 "type": "INT",
                 "links": null
               },
               {
-                "label": "16,413,883,392      freemem_after",
+                "label": "16,153,620,992      freemem_after",
                 "localized_name": "freemem_after",
                 "name": "freemem_after",
                 "type": "INT",
@@ -42741,7 +42842,7 @@
             ],
             "flags": {},
             "order": 3,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input1",
@@ -42842,7 +42943,7 @@
             ],
             "flags": {},
             "order": 4,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "value",
@@ -42894,7 +42995,7 @@
             ],
             "flags": {},
             "order": 5,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "input",
@@ -42938,7 +43039,7 @@
             ],
             "flags": {},
             "order": 6,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "value",
@@ -42987,7 +43088,7 @@
             ],
             "flags": {},
             "order": 7,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "a",
@@ -43040,7 +43141,7 @@
               "collapsed": false
             },
             "order": 8,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "samples",
@@ -43100,7 +43201,7 @@
               "collapsed": false
             },
             "order": 9,
-            "mode": 4,
+            "mode": 0,
             "inputs": [
               {
                 "localized_name": "samples",
@@ -43292,9 +43393,9 @@
         "id": "3fee4f4d-dc82-4456-b91b-3169c38fde90",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -44183,9 +44284,9 @@
         "id": "0d6e6a7f-b15d-4752-9aba-4457439f0698",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -45074,9 +45175,9 @@
         "id": "6ca354a1-e15d-445d-8a31-7a42596a016e",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -45965,9 +46066,9 @@
         "id": "045d8678-720a-4a97-898b-732fc1f2ec36",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -46262,14 +46363,14 @@
                 "links": null
               },
               {
-                "label": "6,169,437,696   freemem_before",
+                "label": "13,811,579,904   freemem_before",
                 "localized_name": "freemem_before",
                 "name": "freemem_before",
                 "type": "INT",
                 "links": null
               },
               {
-                "label": "15,256,943,616      freemem_after",
+                "label": "16,153,620,992      freemem_after",
                 "localized_name": "freemem_after",
                 "name": "freemem_after",
                 "type": "INT",
@@ -46856,9 +46957,9 @@
         "id": "ea3a687e-8343-4083-b565-d60d3d3f3645",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -47153,14 +47254,14 @@
                 "links": null
               },
               {
-                "label": "10,522,270,720   freemem_before",
+                "label": "10,361,346,048   freemem_before",
                 "localized_name": "freemem_before",
                 "name": "freemem_before",
                 "type": "INT",
                 "links": null
               },
               {
-                "label": "16,501,750,272      freemem_after",
+                "label": "16,347,428,352      freemem_after",
                 "localized_name": "freemem_after",
                 "name": "freemem_after",
                 "type": "INT",
@@ -47747,9 +47848,9 @@
         "id": "ec59a38d-6419-4e2a-b0be-222796f3b660",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -48750,9 +48851,9 @@
         "id": "2918b08b-d1b7-4d58-9035-a338dee4b8a4",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -50176,9 +50277,9 @@
         "id": "0f2d70df-04a6-41a2-a4c1-c1d3ad4c395a",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -51196,7 +51297,7 @@
               }
             },
             "widgets_values": [
-              "face",
+              "body",
               "referring_expression_segmentation",
               true,
               false,
@@ -51858,9 +51959,9 @@
         "id": "2ebc8900-45d8-4d3d-91eb-631c3fa78014",
         "version": 1,
         "state": {
-          "lastGroupId": 163,
-          "lastNodeId": 3246,
-          "lastLinkId": 4821,
+          "lastGroupId": 164,
+          "lastNodeId": 3254,
+          "lastLinkId": 4846,
           "lastRerouteId": 24
         },
         "revision": 0,
@@ -52815,10 +52916,10 @@
     ],
     "links_added_by_ue": [],
     "ds": {
-      "scale": 0.546410764292066,
+      "scale": 0.4512141359206966,
       "offset": [
-        3371.598055149582,
-        1348.8725730462397
+        2672.3230344239805,
+        1795.6677393338666
       ]
     },
     "linkExtensions": [
