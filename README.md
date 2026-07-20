@@ -1,3 +1,5 @@
+"Development paused due to a persistent ComfyUI frontend bug causing repeated 'Failed to save workflow draft' notifications. The workflow itself remains functional."
+
 ![Workflow Overview](Full%20Image%20Works%201.45.a.jpg)
 
 Status & Disclaimer
